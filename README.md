@@ -4,17 +4,7 @@ import com.kms.katalon.core.webui.driver.DriverFactory
 ChromeOptions options = new ChromeOptions()
 options.addArguments("--disable-notifications")
 
-DriverFactory.changeWebDriver(new ChromeDriver(options))
-
-
-Step-by-Step: Disable Browser Notification Popup in Chrome
-	1.	Open your Katalon project.
-	2.	Go to Project > Settings > Execution > Default > Web UI > Chrome.
-	3.	Click the ‘Add’ button to add a desired capability:
-	•	Name: args
-	•	Type: List
-	•	Value: --disable-notifications
-	4.	Save the settings.
+DriverFactory.changeWebDriver(new ChromeDriver(options)
 
 Go to Project > Settings > Execution > Default > Web UI > Chrome.
 	2.	Click Add and create the following key-value pair:
@@ -41,3 +31,4 @@ We are currently analyzing the failures and estimating approximately [insert est
 I will keep you updated on the progress and inform you once the suite is stable and ready for execution in Test.
 
 
+Thanks to the whole team for helping me understand the xxx task. The support really made a difference — let’s keep this teamwork going!
