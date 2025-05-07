@@ -30,4 +30,14 @@ Number
 2
 
 
+Test Failures Due to Environment Switch – Fix Estimation
+
+Dear Stakeholders,
+
+The existing automation test cases were originally designed to run against the Stage environment, with data and object locators tailored accordingly. Upon executing the same suite in the Test environment as requested, we have encountered several test failures due to environment-specific differences.
+
+We are currently analyzing the failures and estimating approximately [insert estimated time, e.g., 2–3 working days] to refactor the scripts and resolve the issues for Test environment compatibility.
+
+I will keep you updated on the progress and inform you once the suite is stable and ready for execution in Test.
+
 
