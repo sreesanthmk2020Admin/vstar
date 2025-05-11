@@ -1,1 +1,96 @@
-test
+
+# Katalon Project Folder Structure – README
+
+This README explains the standard structure of a Katalon Studio project and the steps to set up and contribute to the automation framework.
+
+---
+
+## Getting Started
+
+### 1. Download Katalon Studio
+- Go to **Software Central**.
+- Search for **Katalon Studio (Latest Version)**.
+- Download and install it on your machine.
+
+### 2. Clone the Project Repository (from Katalon Studio)
+- Open **Katalon Studio**.
+- From the **Start Page**, click on **"Clone Project"**.
+- Enter the Git **repository URL**.
+- Enter your **GitHub username** and **personal access token** (passkey) if prompted.
+- Choose a local directory to store the project and click **Clone**.
+
+### 3. Create a Feature Branch (from GitHub website)
+- Go to your repository in **GitHub**.
+- From the repository’s main page, click the **Branch dropdown**.
+- Type the name of your new feature branch (e.g., `feature/update-login-test`) and press **Enter** to create it from the `develop` branch.
+- After creating the branch, pull it into your local Katalon project:
+  - In Katalon, go to **Git > Pull**.
+  - Select the new branch and switch to it using **Git > Switch Branch**.
+
+### 4. Commit and Push Changes (from Katalon Studio)
+- In Katalon Studio:
+  - Go to **Git > Commit**.
+  - Select the files you changed and write a meaningful commit message.
+  - Click **Commit and Push**.
+- Ensure you're pushing to your feature branch (not develop or master).
+
+### 5. Raise a Pull Request (PR)
+- Go to your Git platform (e.g., GitHub/GitLab).
+- Create a PR to merge your feature branch into the `develop` branch.
+- **Add reviewers**: `crmqa`
+- Upon approval, the branch will be merged.
+
+---
+
+## Katalon Project Folder Structure
+
+### `Profiles/`
+- Contains **execution profiles**.
+  - **Default Profile**: Includes common settings, such as:
+    - **Sync time variables**
+    - **Test user ID**
+    - **File locations** for logs, reports, etc.
+    - **Screenshot capture settings**
+  - **Environment-specific Profiles**:
+    - Environment **URLs** (QA, Prod, Staging, etc.)
+    - Environment-specific **test data**
+
+### `Test Cases/`
+- All your automated test cases.
+- Should be organized by module or feature.
+
+### `Test Suites/`
+- Collection of test cases executed together.
+- Good for smoke, regression, or module-based testing.
+
+### `Test Suites Collection/`
+- Groups multiple test suites for broader or parallel runs.
+
+### `Object Repository/` or `Test Objects/`
+- Contains UI elements (locators) referenced in test scripts.
+
+### `Keywords/`
+- Reusable **custom keywords** written in Groovy.
+
+### `Include/`
+- Internal Katalon folder:
+  - `scripts/groovy`: for shared scripts.
+  - `features/`: for BDD `.feature` files.
+
+### `Reports/`
+- Contains execution reports and screenshots.
+
+### `Libs/` and `Drivers/`
+- For adding JARs and WebDriver binaries.
+
+### `Data Files/`
+- For external data (CSV, Excel, DB) used in data-driven testing.
+
+---
+
+## Best Practices
+- Use meaningful names for all test artifacts.
+- Group related items into folders.
+- Keep test objects modular and maintainable.
+- Test locally before committing changes.
+- Always create a PR for code review.
