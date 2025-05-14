@@ -37,12 +37,30 @@ I will keep you updated on the progress and inform you once the suite is stable 
 
  Request to Configure Users in Test Environment
 
-Dear [Configuration Team],
 
-I have a list of users currently available in the Stage environment that need to be configured in the Test environment as well. I have noticed that a few of these user IDs already exist in Test.
 
-Kindly review the attached list and proceed with configuring the remaining users in the Test environment. Please let me know if any additional details are needed from my side.
+
+Subject: Action Required: Update of Impacted Object Locators in TST Environment
+
+Hi Team,
+
+As part of the Siebel upgrade from version 23 to 25, we have identified around 250 impacted object locators across various modules. These updates are required due to changes in applet names (e.g., "Search Applet" is now "Search"), which are affecting automation execution in the TST environment.
+
+To streamline the update process, the impacted objects have been divided among the three of you as per the allocation below.
+For tracking purposes, please populate the attached sheet with the updated status once you complete each item.
+
+Allocation:
+	•	[Member 1] – Module A, B
+	•	[Member 2] – Module C, D
+	•	[Member 3] – Module E, F
+
+Please ensure the object locators are updated and corresponding test cases are passing in the TST environment. Let me know if you face any blockers.
+
+CC: [Manager’s Name]
+Attachment: Impacted_Object_Locators.xlsx
 
 Best regards,
 [Your Name]
 Test Lead | SLK Group
+
+
