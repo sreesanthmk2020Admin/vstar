@@ -64,3 +64,15 @@ Best regards,
 Test Lead | SLK Group
 
 
+
+ual fun, I’m putting together a small snacks party in the cafeteria. Would love for you all to join, chill for a bit, and grab a bite!
+
+📅 Date: [Insert Date]
+🕒 Time: [Insert Time]
+📍 Place: Cafeteria
+
+Hope to see you there! 😄
+– Sreesanth
+
+
+
