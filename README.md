@@ -73,39 +73,17 @@ ual fun, I’m putting together a small snacks party in the cafeteria. Would lov
 
 Hope to see you there! 😄
 
+Request to Run Sequence Job for CSC VIP Checkbox Match-Merge Validation
 
+Hi [Data Team/Team Member’s Name],
 
+Hope you’re doing well.
 
-🧾 Definition of Done (DoD)
-	1.	All impacted object locators (identified from Siebel v25 upgrade) are updated and committed to the automation framework.
-	2.	Automated test cases are updated, rerun, and passing in the test environment.
-	3.	A daily progress tracker is maintained and shared with stakeholders.
-	4.	A burndown chart is created to track locator fixes and test execution completion.
-	5.	All failures (if any) are triaged, root-caused, and corresponding tickets are raised or resolved.
-	6.	Regression suite is executed successfully in the Test and UAT environments.
-	7.	Final sign-off mail/document is shared with stakeholders.
+Could you please help run the sequence job to validate one of the match-merge scenarios related to the CSC VIP checkbox? We need to verify if the merge logic is correctly handling records with this attribute.
 
+Let me know once it’s triggered or if you need any specific inputs from my side.
 
-#
-Acceptance Criteria
-1
-All 350 impacted locators are identified, updated, and validated.
-2
-244 automated test cases are updated and executed.
-3
-Daily tracker is populated with fix status and test execution results.
-4
-A dashboard with locator fix and execution burndown is available and updated daily.
-5
-All test cases that fail due to locator issues are fixed and retested.
-6
-No high-severity issues remain open before regression sign-off.
-7
-The updated test suite passes with ≥95% success rate in UAT.
-8
-Sign-off email or report is sent to the client/stakeholders.
-
-
-
-
+Thanks,
+[Your Name]
+[Test Lead – Project Name]
 
