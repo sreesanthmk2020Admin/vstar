@@ -20,17 +20,41 @@ Number
 2
 
 
-Request to Re-run Sequence Job for CSC VIP Checkbox Match-Merge Validation
+import javax.naming.*;
+import javax.naming.directory.*;
+import java.util.Hashtable;
 
-Hi [Data Team/Name],
+public class GetWindowsDisplayName {
+    public static void main(String[] args) {
+        String username = System.getProperty("user.name"); // e.g., jdoe
 
-Hope you’re doing well.
+        Hashtable<String, String> env = new Hashtable<>();
+        env.put(Context.INITIAL_CONTEXT_FACTORY, "com.sun.jndi.ldap.LdapCtxFactory");
+        env.put(Context.PROVIDER_URL, "ldap://your.domain.controller"); // Replace with your domain controller
+        env.put(Context.SECURITY_AUTHENTICATION, "simple");
+        env.put(Context.SECURITY_PRINCIPAL, "your_domain\\" + username); // e.g., CORP\\jdoe
+        env.put(Context.SECURITY_CREDENTIALS, "your_password"); // Ideally use a secure method
 
-Following the last run, we observed that the data was reloaded by the team; however, the match-merge scenario for the CSC VIP checkbox did not produce the desired outcome. Ideally, we should have followed the specific steps outlined by the DEV team to ensure accurate validation.
+        try {
+            DirContext ctx = new InitialDirContext(env);
+            String searchFilter = "(&(objectClass=user)(sAMAccountName=" + username + "))";
+            String[] attrIDs = { "displayName" };
 
-Could you please re-run the sequence job, this time aligning with the recommended DEV steps, so we can properly validate the scenario?
+            SearchControls ctls = new SearchControls();
+            ctls.setSearchScope(SearchControls.SUBTREE_SCOPE);
+            ctls.setReturningAttributes(attrIDs);
 
-Appreciate your support and let me know once it’s triggered.
+            NamingEnumeration<SearchResult> answer = ctx.search("DC=your,DC=domain,DC=com", searchFilter, ctls);
 
-
-
+            if (answer.hasMore()) {
+                Attributes attrs = answer.next().getAttributes();
+                System.out.println("Display Name: " + attrs.get("displayName").get());
+            } else {
+                System.out.println("User not found.");
+            }
+            ctx.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+}
