@@ -93,3 +93,19 @@ Explore transitioning to a BDD-based structure for long-term scalability, which 
 Improve logging around locator failures and skipped/commented steps to enhance traceability and support faster resolution.
 	8.	Weekly Sync with QA + Dev
 Schedule a weekly QA-DEV sync meeting to align on locator naming conventions, upcoming UI changes, and any functional impact.
+
+
+Subject: Clarification on Project Delivery Approach and Board Format
+
+Hi [Scrum Master’s Name],
+
+I hope you’re doing well.
+
+I wanted to confirm my understanding regarding our current delivery approach. As I see it, we are following the Agile methodology with all core Scrum ceremonies in place and operating in a 2-week sprint cycle. While our current tracking board is in a Kanban format, there is a plan to transition to a full Scrum board setup at a later stage.
+
+Could you please confirm if this understanding is correct, or let me know if there are any updates or changes to this approach?
+
+Thanks in advance for your guidance.
+
+Best regards,
+[Your Name]
