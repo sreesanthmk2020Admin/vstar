@@ -109,3 +109,18 @@ Thanks in advance for your guidance.
 
 Best regards,
 [Your Name]
+
+
+Subject: Confirmation on Project Delivery Approach and Board Usage
+
+Dear [Scrum Master’s Name],
+
+I hope this message finds you well.
+
+I would like to seek your confirmation on the delivery approach being followed in our project. As per my current understanding, we are adhering to the Agile methodology with all core Scrum ceremonies in place, operating within a two-week sprint cycle. Additionally, while our task tracking board is currently configured in a Kanban format, there is an intent to transition to a full Scrum board at a later stage.
+
+Kindly confirm if this understanding is accurate or advise if there are any deviations or updates.
+
+Thank you for your support.
+
+Best regards,
