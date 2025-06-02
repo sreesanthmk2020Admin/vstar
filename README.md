@@ -95,27 +95,44 @@ Improve logging around locator failures and skipped/commented steps to enhance t
 Schedule a weekly QA-DEV sync meeting to align on locator naming conventions, upcoming UI changes, and any functional impact.
 
 ----------
-Subject: Status Update on ReadyAPI Test Case Failures and Environment Shift
+Subject: API Test Closure Report – ReadyAPI Test Execution Summary
 
 Dear Team,
 
-This is to provide an update on the status of API test cases executed via ReadyAPI.
+Please find below the summary of the API test execution and closure details for the current cycle:
 
-Initially, all test cases failed due to incorrect test data configuration involving absolute file paths. This was addressed by updating the references to use relative paths. Following this, a few test cases continued to fail due to:
+⸻
+
+1. Execution Tool & Approach
+	•	Test cases were executed manually using ReadyAPI.
+	•	Initial plan is to validate APIs manually and later automate them using Katalon’s API testing framework.
+
+2. Initial Issues Identified
+	•	All test cases initially failed due to incorrect test data configurations, specifically the use of absolute file paths.
+	•	Resolved by updating test files to use relative paths.
+
+3. Subsequent Failures
+	•	Some test cases continued to fail due to:
 	•	Missing test data files
 	•	Incorrect or inconsistent test data values
 
-As a result of the above issues, we have now shifted our validation efforts to the Stage environment, where test data and configurations are relatively more stable and aligned.
+4. Environment Change
+	•	Due to these issues, we shifted test execution to the Stage environment, which has more stable and aligned test data.
 
-Please note:
-	•	These test cases are currently being executed manually in ReadyAPI.
-	•	At a later stage, we plan to automate these API test cases using Katalon’s API testing framework.
-	•	Once validated, these tests will be integrated with UI automation for end-to-end functional coverage, where API flows will help set up data for UI validations.
+5. Future Plan
+	•	Once manual validations are complete and stable, the test cases will be:
+	•	Automated using Katalon
+	•	Integrated with UI test flows, where APIs will set up the data for functional validations
 
-We will continue to monitor progress and share updates. Please let me know if any additional support or clarification is required.
+⸻
+
+Please let me know if there are any concerns or additional inputs needed.
+Looking forward to your feedback.
 
 Best regards,
 [Your Name]
 [Your Designation]
+[Project/Team Name]: 
 
+ 
 
