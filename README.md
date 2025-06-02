@@ -94,33 +94,28 @@ Improve logging around locator failures and skipped/commented steps to enhance t
 	8.	Weekly Sync with QA + Dev
 Schedule a weekly QA-DEV sync meeting to align on locator naming conventions, upcoming UI changes, and any functional impact.
 
+----------
+Subject: Status Update on ReadyAPI Test Case Failures and Environment Shift
 
-Subject: Clarification on Project Delivery Approach and Board Format
+Dear Team,
 
-Hi [Scrum Master’s Name],
+This is to provide an update on the status of API test cases executed via ReadyAPI.
 
-I hope you’re doing well.
+Initially, all test cases failed due to incorrect test data configuration involving absolute file paths. This was addressed by updating the references to use relative paths. Following this, a few test cases continued to fail due to:
+	•	Missing test data files
+	•	Incorrect or inconsistent test data values
 
-I wanted to confirm my understanding regarding our current delivery approach. As I see it, we are following the Agile methodology with all core Scrum ceremonies in place and operating in a 2-week sprint cycle. While our current tracking board is in a Kanban format, there is a plan to transition to a full Scrum board setup at a later stage.
+As a result of the above issues, we have now shifted our validation efforts to the Stage environment, where test data and configurations are relatively more stable and aligned.
 
-Could you please confirm if this understanding is correct, or let me know if there are any updates or changes to this approach?
+Please note:
+	•	These test cases are currently being executed manually in ReadyAPI.
+	•	At a later stage, we plan to automate these API test cases using Katalon’s API testing framework.
+	•	Once validated, these tests will be integrated with UI automation for end-to-end functional coverage, where API flows will help set up data for UI validations.
 
-Thanks in advance for your guidance.
+We will continue to monitor progress and share updates. Please let me know if any additional support or clarification is required.
 
 Best regards,
 [Your Name]
+[Your Designation]
 
 
-Subject: Confirmation on Project Delivery Approach and Board Usage
-
-Dear [Scrum Master’s Name],
-
-I hope this message finds you well.
-
-I would like to seek your confirmation on the delivery approach being followed in our project. As per my current understanding, we are adhering to the Agile methodology with all core Scrum ceremonies in place, operating within a two-week sprint cycle. Additionally, while our task tracking board is currently configured in a Kanban format, there is an intent to transition to a full Scrum board at a later stage.
-
-Kindly confirm if this understanding is accurate or advise if there are any deviations or updates.
-
-Thank you for your support.
-
-Best regards,
