@@ -125,14 +125,7 @@ Please find below the summary of the API test execution and closure details for 
 	•	Integrated with UI test flows, where APIs will set up the data for functional validations
 
 ⸻
-
-Please let me know if there are any concerns or additional inputs needed.
-Looking forward to your feedback.
-
-Best regards,
-[Your Name]
-[Your Designation]
-[Project/Team Name]: 
+During regression suite maintenance, we identified that the current test case design lacks workflow clarity, so we plan to adopt BDD format going forward, as already practiced in SIT. 
 
  
 
