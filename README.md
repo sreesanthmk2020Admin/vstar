@@ -140,7 +140,19 @@ Best regards,
 [Your Name]
 [Your Employee ID / Department, if applicable]
 ⸻
-During regression suite maintenance, we identified that the current test case design lacks workflow clarity, so we plan to adopt BDD format going forward, as already practiced in SIT. 
+Subject: Project Plan for the Next 6 Months
 
- 
+Hi [Boss’s Name],
+
+Apologies for the delay in sending this across—I was waiting to confirm a few points with the project team to ensure accuracy.
+
+Please find below the planned activities and roadmap for the next 6 months as discussed:
+
+[Insert a brief summary or attach the detailed document/plan here]
+
+Let me know if you need any clarifications or further details.
+
+Best regards,
+[Your Name]
+
 
