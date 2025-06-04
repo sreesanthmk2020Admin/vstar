@@ -124,6 +124,21 @@ Please find below the summary of the API test execution and closure details for 
 	•	Automated using Katalon
 	•	Integrated with UI test flows, where APIs will set up the data for functional validations
 
+-------
+
+Subject: Request to Replace Extended Monitor with XXX Workspace Monitor
+
+Dear [IT/Facilities Team],
+
+I would like to request the replacement of my current extended monitor with a XXX Workspace monitor. This change is essential for ergonomic and medical reasons—I’ve had a back pain episode in the past, and based on my doctor’s advice, I am required to use a monitor positioned at eye level. I can provide supporting medical documentation, including doctor’s certificates and MRI reports, if needed.
+
+Additionally, I’ve noted that the person currently using the XXX Workspace is scheduled to leave on 10th June. I kindly request to initiate the monitor exchange on the night of 6th June, once all users have logged out, to avoid disruption.
+
+Please let me know if any further details are required.
+
+Best regards,
+[Your Name]
+[Your Employee ID / Department, if applicable]
 ⸻
 During regression suite maintenance, we identified that the current test case design lacks workflow clarity, so we plan to adopt BDD format going forward, as already practiced in SIT. 
 
