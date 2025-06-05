@@ -140,19 +140,19 @@ Best regards,
 [Your Name]
 [Your Employee ID / Department, if applicable]
 ⸻
-Subject: Project Plan for the Next 6 Months
+Subject: Immediate Action Required: Monitor Replacement Request
 
-Hi [Boss’s Name],
+Dear [IT/Facilities/Support Team],
 
-Apologies for the delay in sending this across—I was waiting to confirm a few points with the project team to ensure accuracy.
+This is to request the replacement of my current extended monitor with the XXX Workspace monitor, which will be available as the current user is scheduled to exit on 10th June. I am requesting this monitor to be shifted on the night of 6th June, post user logout, to ensure a smooth transition without disrupting daily operations.
 
-Please find below the planned activities and roadmap for the next 6 months as discussed:
+This is a critical requirement from a health and ergonomics standpoint. I have a documented history of back pain, and my doctor has strictly advised the use of a monitor at eye level. Medical documentation, including MRI reports and doctor’s notes, can be provided if needed.
 
-[Insert a brief summary or attach the detailed document/plan here]
+Please note, I had raised a similar service request yesterday, which is still pending. Since this version of the request does not require manager approval, I urge the team to treat this as a priority and proceed with the necessary arrangements without further delay.
 
-Let me know if you need any clarifications or further details.
+Looking forward to prompt action.
 
 Best regards,
-[Your Name]
-
-
+[Your Full Name]
+[Employee ID / Department]
+[Contact Info, if needed]
