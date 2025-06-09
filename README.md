@@ -126,33 +126,19 @@ Please find below the summary of the API test execution and closure details for 
 
 -------
 
-Subject: Request to Replace Extended Monitor with XXX Workspace Monitor
+Subject: Request to Re-run Sequence Job for CSC VIP Checkbox Match-Merge Validation
 
-Dear [IT/Facilities Team],
+Dear [Data Team / Recipient’s Name],
 
-I would like to request the replacement of my current extended monitor with a XXX Workspace monitor. This change is essential for ergonomic and medical reasons—I’ve had a back pain episode in the past, and based on my doctor’s advice, I am required to use a monitor positioned at eye level. I can provide supporting medical documentation, including doctor’s certificates and MRI reports, if needed.
+This is a follow-up on the previous request regarding the CSC VIP checkbox match-merge validation.
 
-Additionally, I’ve noted that the person currently using the XXX Workspace is scheduled to leave on 10th June. I kindly request to initiate the monitor exchange on the night of 6th June, once all users have logged out, to avoid disruption.
+In the last execution, the required record was not included, which led to an undesired result. I have now completed the necessary data setup from my side.
 
-Please let me know if any further details are required.
+Kindly re-run the sequence job and ensure that all steps as instructed by the development team are followed during execution.
+
+Please keep me posted once the job is completed or if any clarification is needed.
 
 Best regards,
 [Your Name]
-[Your Employee ID / Department, if applicable]
-⸻
-Subject: Immediate Action Required: Monitor Replacement Request
-
-Dear [IT/Facilities/Support Team],
-
-This is to request the replacement of my current extended monitor with the XXX Workspace monitor, which will be available as the current user is scheduled to exit on 10th June. I am requesting this monitor to be shifted on the night of 6th June, post user logout, to ensure a smooth transition without disrupting daily operations.
-
-This is a critical requirement from a health and ergonomics standpoint. I have a documented history of back pain, and my doctor has strictly advised the use of a monitor at eye level. Medical documentation, including MRI reports and doctor’s notes, can be provided if needed.
-
-Please note, I had raised a similar service request yesterday, which is still pending. Since this version of the request does not require manager approval, I urge the team to treat this as a priority and proceed with the necessary arrangements without further delay.
-
-Looking forward to prompt action.
-
-Best regards,
-[Your Full Name]
-[Employee ID / Department]
-[Contact Info, if needed]
+[Project / Team Name]
+[Employee ID, if applicable]
