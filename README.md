@@ -137,6 +137,18 @@ A detailed test execution report is attached for your reference. Please let me k
 
 Best regards,
 [Your Name]
-[Project / QA T
+[Project / QA 
+
+Dear [Recipient’s Name / Team],
+
+This is to confirm that API testing for the Stage environment has been completed, and the closure report has already been shared.
+
+Please note that the API testing sign-off will be included as part of the System Test Report (STR) document for formal documentation and reference.
+
+Let me know if you require any additional information or clarification.
+
+Best regards,
+[Your Name]
+[Project / QA Team Nam
 
 
