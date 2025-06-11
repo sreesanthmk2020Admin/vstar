@@ -125,20 +125,18 @@ Please find below the summary of the API test execution and closure details for 
 	•	Integrated with UI test flows, where APIs will set up the data for functional validations
 
 -------
+Subject: Regression Test Execution Report – Test Environment
 
-Subject: Request to Re-run Sequence Job for CSC VIP Checkbox Match-Merge Validation
+Dear [Recipient’s Name / Team],
 
-Dear [Data Team / Recipient’s Name],
+Please find below the summary of the regression testing executed in the Test environment:
 
-This is a follow-up on the previous request regarding the CSC VIP checkbox match-merge validation.
+We were able to achieve a 90%+ pass rate across all major modules, demonstrating good stability and coverage after the recent changes. However, we observed exceptions in the [Module Name] module, where a few test cases failed due to [brief reason if known, e.g., environment data mismatch or pending defect resolution].
 
-In the last execution, the required record was not included, which led to an undesired result. I have now completed the necessary data setup from my side.
-
-Kindly re-run the sequence job and ensure that all steps as instructed by the development team are followed during execution.
-
-Please keep me posted once the job is completed or if any clarification is needed.
+A detailed test execution report is attached for your reference. Please let me know if further clarification or walkthrough is needed.
 
 Best regards,
 [Your Name]
-[Project / Team Name]
-[Employee ID, if applicable]
+[Project / QA T
+
+
