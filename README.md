@@ -151,4 +151,23 @@ Best regards,
 [Your Name]
 [Project / QA Team Nam
 
+--------
+Subject: API Testing Sign-Off – Stage Environment
+
+Dear [Recipient’s Name / Team],
+
+This is to confirm that API testing has been successfully completed in the Stage environment, using our existing regression pack which is currently configured for Stage only.
+
+At this point, I can provide sign-off solely for the Stage environment. API sign-off for the Test environment is not feasible, as execution and validation have not been performed there.
+
+In the future, once the API tests are fully integrated into the automation pack, we will be able to execute them across multiple environments, including Test.
+
+The formal sign-off will be included in the upcoming System Test Report (STR).
+
+Please feel free to reach out if any further information is required.
+
+Best regards,
+[Your Name]
+[Project / QA Tea
+
 
