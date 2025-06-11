@@ -170,4 +170,21 @@ Best regards,
 [Your Name]
 [Project / QA Tea
 
+-----
+Dear [Recipient’s Name / Team],
+
+This is to confirm that the defect [Defect ID – Defect Title] has been successfully validated in the Stage environment.
+
+Below are the reproduction steps used during validation to ensure it meets the defined acceptance criteria:
+	1.	[Step 1 – e.g., Login to the application]
+	2.	[Step 2 – Navigate to XYZ module]
+	3.	[Step 3 – Perform ABC action]
+	4.	[Step 4 – Validate the expected behavior as per acceptance criteria]
+
+All validations have passed as expected. Attached are the evidences (screenshots/logs) captured during the testing.
+
+Based on this, we are providing the QA sign-off for the defect.
+
+Please feel free to reach out for any additional information.
+
 
