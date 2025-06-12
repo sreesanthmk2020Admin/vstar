@@ -1,4 +1,4 @@
-# import org.openqa.selenium.chrome.ChromeOptions
+see# import org.openqa.selenium.chrome.ChromeOptions
 import com.kms.katalon.core.webui.driver.DriverFactory
 
 ChromeOptions options = new ChromeOptions()
@@ -139,52 +139,9 @@ Best regards,
 [Your Name]
 [Project / QA 
 
-Dear [Recipient’s Name / Team],
+======
+ [Boss’s Name],
+We’ve completed the testing. Request you to please review the test report at your convenience. Also, let me know if we can connect for a quick call to walk you through the details.
 
-This is to confirm that API testing for the Stage environment has been completed, and the closure report has already been shared.
-
-Please note that the API testing sign-off will be included as part of the System Test Report (STR) document for formal documentation and reference.
-
-Let me know if you require any additional information or clarification.
-
-Best regards,
-[Your Name]
-[Project / QA Team Nam
-
---------
-Subject: API Testing Sign-Off – Stage Environment
-
-Dear [Recipient’s Name / Team],
-
-This is to confirm that API testing has been successfully completed in the Stage environment, using our existing regression pack which is currently configured for Stage only.
-
-At this point, I can provide sign-off solely for the Stage environment. API sign-off for the Test environment is not feasible, as execution and validation have not been performed there.
-
-In the future, once the API tests are fully integrated into the automation pack, we will be able to execute them across multiple environments, including Test.
-
-The formal sign-off will be included in the upcoming System Test Report (STR).
-
-Please feel free to reach out if any further information is required.
-
-Best regards,
-[Your Name]
-[Project / QA Tea
-
------
-Dear [Recipient’s Name / Team],
-
-This is to confirm that the defect [Defect ID – Defect Title] has been successfully validated in the Stage environment.
-
-Below are the reproduction steps used during validation to ensure it meets the defined acceptance criteria:
-	1.	[Step 1 – e.g., Login to the application]
-	2.	[Step 2 – Navigate to XYZ module]
-	3.	[Step 3 – Perform ABC action]
-	4.	[Step 4 – Validate the expected behavior as per acceptance criteria]
-
-All validations have passed as expected. Attached are the evidences (screenshots/logs) captured during the testing.
-
-Based on this, we are providing the QA sign-off for the defect.
-
-Please feel free to reach out for any additional information.
-
+Thanks!
 
