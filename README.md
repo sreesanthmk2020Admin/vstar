@@ -125,23 +125,41 @@ Please find below the summary of the API test execution and closure details for 
 	•	Integrated with UI test flows, where APIs will set up the data for functional validations
 
 -------
-Subject: Regression Test Execution Report – Test Environment
+package stepdefinitions
 
-Dear [Recipient’s Name / Team],
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import io.cucumber.java.en.*
+import com.kms.katalon.core.util.KeywordUtil
+import groovy.json.JsonSlurper
+import internal.GlobalVariable
 
-Please find below the summary of the regression testing executed in the Test environment:
+class APISteps {
 
-We were able to achieve a 90%+ pass rate across all major modules, demonstrating good stability and coverage after the recent changes. However, we observed exceptions in the [Module Name] module, where a few test cases failed due to [brief reason if known, e.g., environment data mismatch or pending defect resolution].
+    def response
 
-A detailed test execution report is attached for your reference. Please let me know if further clarification or walkthrough is needed.
+    @Given("I set login API endpoint")
+    def setLoginEndpoint() {
+        KeywordUtil.logInfo("Setting login endpoint")
+        GlobalVariable.loginEndpoint = findTestObject('API/LoginAPI')
+    }
 
-Best regards,
-[Your Name]
-[Project / QA 
+    @When("I submit POST request with valid credentials")
+    def postLoginRequest() {
+        KeywordUtil.logInfo("Submitting login request")
+        response = WS.sendRequest(GlobalVariable.loginEndpoint)
+    }
 
-======
- [Boss’s Name],
-We’ve completed the testing. Request you to please review the test report at your convenience. Also, let me know if we can connect for a quick call to walk you through the details.
+    @Then("I should receive 200 status code")
+    def verifyStatusCode() {
+        WS.verifyResponseStatusCode(response, 200)
+    }
 
-Thanks!
+    @And("response should contain token")
+    def verifyToken() {
+        def jsonResponse = new JsonSlurper().parseText(response.getResponseBodyContent())
+        assert jsonResponse.token != null
+        KeywordUtil.logInfo("Token: ${jsonResponse.token}")
+    }
+}
 
