@@ -125,41 +125,64 @@ Please find below the summary of the API test execution and closure details for 
 	•	Integrated with UI test flows, where APIs will set up the data for functional validations
 
 -------
+1. Create the SOAP Request Object
+
+Steps:
+	1.	Go to Object Repository → New → Web Service Request
+	2.	Set:
+	•	Request Type: SOAP
+	•	WSDL URL: (your service WSDL)
+	3.	Click Load WSDL, pick the operation (e.g., getCustomerDetails)
+	4.	Katalon auto-generates the XML SOAP envelope
+	5.	Set any dynamic values using ${variable} syntax
+	6.	Save it under:
+Object Repository/API/SOAP/getCustomerDetails
+
+Feature: Get Customer Details via SOAP
+
+  Scenario: Get details of a valid customer
+    Given I prepare the SOAP request for valid customer ID
+    When I send the SOAP request
+    Then I should receive a 200 response
+    And the response should contain the customer name
+
 package stepdefinitions
 
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import internal.GlobalVariable
 import io.cucumber.java.en.*
 import com.kms.katalon.core.util.KeywordUtil
-import groovy.json.JsonSlurper
-import internal.GlobalVariable
+import groovy.xml.XmlSlurper
 
-class APISteps {
+class GetCustomerSteps {
 
     def response
 
-    @Given("I set login API endpoint")
-    def setLoginEndpoint() {
-        KeywordUtil.logInfo("Setting login endpoint")
-        GlobalVariable.loginEndpoint = findTestObject('API/LoginAPI')
+    @Given("I prepare the SOAP request for valid customer ID")
+    def prepareSOAPRequest() {
+        // You can pass test data via variable substitution here if needed
+        GlobalVariable.soapRequest = findTestObject('API/SOAP/getCustomerDetails')
+        KeywordUtil.logInfo("SOAP request prepared")
     }
 
-    @When("I submit POST request with valid credentials")
-    def postLoginRequest() {
-        KeywordUtil.logInfo("Submitting login request")
-        response = WS.sendRequest(GlobalVariable.loginEndpoint)
+    @When("I send the SOAP request")
+    def sendSOAPRequest() {
+        response = WS.sendRequest(GlobalVariable.soapRequest)
+        KeywordUtil.logInfo("SOAP request sent")
     }
 
-    @Then("I should receive 200 status code")
+    @Then("I should receive a 200 response")
     def verifyStatusCode() {
         WS.verifyResponseStatusCode(response, 200)
+        KeywordUtil.logInfo("Received HTTP 200 OK")
     }
 
-    @And("response should contain token")
-    def verifyToken() {
-        def jsonResponse = new JsonSlurper().parseText(response.getResponseBodyContent())
-        assert jsonResponse.token != null
-        KeywordUtil.logInfo("Token: ${jsonResponse.token}")
+    @And("the response should contain the customer name")
+    def verifyCustomerName() {
+        def parsed = new XmlSlurper().parseText(response.getResponseBodyContent())
+        def customerName = parsed.'**'.find { it.name() == 'CustomerName' }?.text()
+        assert customerName != null && customerName != ""
+        KeywordUtil.logInfo("Customer Name from response: " + customerName)
     }
 }
-
