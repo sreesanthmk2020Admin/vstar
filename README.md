@@ -185,4 +185,12 @@ class GetCustomerSteps {
         assert customerName != null && customerName != ""
         KeywordUtil.logInfo("Customer Name from response: " + customerName)
     }
-}
+
+
+
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import cucumber.api.cli.Main
+
+String[] tagsToRun = ['--tags', '@positive']
+
+CucumberKW.runWithCucumberRunner('Include.features.soap.GetCustomer', tagsToRun)
