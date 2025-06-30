@@ -187,10 +187,18 @@ class GetCustomerSteps {
     }
 
 
+Subject: Regression Coverage Plan for Upcoming Release
 
-import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
-import cucumber.api.cli.Main
+Hi [Product Owner’s Name],
 
-String[] tagsToRun = ['--tags', '@positive']
+Please find below the regression coverage plan for this release. We will focus on validating all high-impact modules including Customer Onboarding, Account Management, and Transactions. The regression suite includes both functional and integration-level validations.
 
-CucumberKW.runWithCucumberRunner('Include.features.soap.GetCustomer', tagsToRun)
+Areas out of scope include legacy reporting features and admin dashboard UI, which remain unchanged in this build.
+
+Our objective is to ensure stability across critical user journeys. We’ll share the detailed report and sign-off once execution is complete.
+
+Let me know if you’d like any additional modules included.
+
+Regards,
+Sreesanth
+Test Lead
