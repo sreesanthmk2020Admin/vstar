@@ -186,19 +186,18 @@ class GetCustomerSteps {
         KeywordUtil.logInfo("Customer Name from response: " + customerName)
     }
 
+========######=========
 
-Subject: Regression Coverage Plan for Upcoming Release
+Subject: Plan to Enhance GUI Validation Coverage in Automation Suite – Effective Sprint 12
 
-Hi [Product Owner’s Name],
+Dear [Recipient’s Name/Team],
 
-Please find below the regression coverage plan for this release. We will focus on validating all high-impact modules including Customer Onboarding, Account Management, and Transactions. The regression suite includes both functional and integration-level validations.
+I would like to bring to your attention that certain GUI-level validations, such as the missing field reported during UAT, are currently not part of our existing regression suite. We recognize the value of including such validations and are planning to address this as part of our continuous improvement efforts.
 
-Areas out of scope include legacy reporting features and admin dashboard UI, which remain unchanged in this build.
+Beginning Sprint 12, we will initiate the development of an enhanced test suite focused on UI field-level validations. As part of this, we will use an Excel-based template to map each applet and its corresponding UI fields, enabling validation both against functional specifications and what is displayed on the screen.
 
-Our objective is to ensure stability across critical user journeys. We’ll share the detailed report and sign-off once execution is complete.
+This new suite will function similarly to our existing LOV validation suite in SR Products, which flags a failure when expected list values are missing. Likewise, this new suite will fail the test if any expected field is missing, thereby improving early detection of UI-level issues.
 
-Let me know if you’d like any additional modules included.
+Additionally, the Excel-based design ensures future scalability—new applets or fields can simply be added to the sheet, without requiring changes to the automation scripts.
 
-Regards,
-Sreesanth
-Test Lead
+We appreciate your support, and we will keep you updated as we progress.
