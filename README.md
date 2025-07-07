@@ -201,3 +201,21 @@ This new suite will function similarly to our existing LOV validation suite in S
 Additionally, the Excel-based design ensures future scalability—new applets or fields can simply be added to the sheet, without requiring changes to the automation scripts.
 
 We appreciate your support, and we will keep you updated as we progress.
+
+
+=============
+
+Subject: GUI Validation Enhancement – User Story Request for Sprint 12
+
+Dear [Recipient’s Name],
+
+We are planning to enhance our automation suite by adding GUI field-level validations, starting from Sprint 12. This will work similarly to our existing LOV validation suite in SR Products, where tests fail when expected data is missing.
+
+As part of this, we’ll be using an Excel-based mapping of applets and their respective fields to drive validation. This approach will make it easier to maintain and scale, without needing changes in scripts for new additions.
+
+Requesting you to please create a user story with 2 story points in the Sprint 12 board for this activity.
+
+Let me know if you need any additional details.
+
+Best regards,
+[Your Name]
