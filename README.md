@@ -188,8 +188,19 @@ class GetCustomerSteps {
 
 ========######=========
 
-confidence suite
-smart scan
-sr uuly drop
+Subject: Request for Column List from Production – List View Validation
+
+Dear Support Team,
+
+I have identified a defect related to a missing column in the list view during testing. To ensure completeness and avoid further misses, I kindly request you to share the full list of columns currently available in the Production environment for the respective applet/module.
+
+This will help us perform a comparison and confirm that no other columns are missing in the lower environments.
+
+Looking forward to your support.
+
+Best regards,
+[Your Name]
+[Project / QA Team Name]
+
 
 
