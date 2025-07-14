@@ -203,4 +203,7 @@ Best regards,
 [Project / QA Team Name]
 
 
+I would like to request a GitHub Copilot license to assist with Katalon automation development and support my ongoing upskilling in WebdriverIO. This will help improve efficiency, maintain code quality, and accelerate the delivery of automation solutions.
+
+
 
