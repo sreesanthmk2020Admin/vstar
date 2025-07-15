@@ -205,5 +205,9 @@ Best regards,
 
 I would like to request a GitHub Copilot license to assist with Katalon automation development and support my ongoing upskilling in WebdriverIO. This will help improve efficiency, maintain code quality, and accelerate the delivery of automation solutions.
 
+As requested, we will be executing a Confidence Suite on the application to validate critical functionalities following the recent certificate update.
 
+This high-level regression will help ensure application stability, and we will share the test summary upon completion.
+
+Please let me know if there are any specific flows you would like us to include.
 
