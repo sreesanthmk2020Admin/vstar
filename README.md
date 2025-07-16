@@ -188,26 +188,12 @@ class GetCustomerSteps {
 
 ========######=========
 
-Subject: Request for Column List from Production – List View Validation
+Subject: Confidence Suite Execution – Completed Successfully
 
-Dear Support Team,
+Hi [Recipient’s Name],
 
-I have identified a defect related to a missing column in the list view during testing. To ensure completeness and avoid further misses, I kindly request you to share the full list of columns currently available in the Production environment for the respective applet/module.
+The Confidence Suite execution has been completed successfully. Test cases were included from all key modules, and I’m happy to report that all ten test cases passed without any issues.
 
-This will help us perform a comparison and confirm that no other columns are missing in the lower environments.
-
-Looking forward to your support.
+Please let me know if you’d like the detailed report or if there are any further validations required.
 
 Best regards,
-[Your Name]
-[Project / QA Team Name]
-
-
-I would like to request a GitHub Copilot license to assist with Katalon automation development and support my ongoing upskilling in WebdriverIO. This will help improve efficiency, maintain code quality, and accelerate the delivery of automation solutions.
-
-As requested, we will be executing a Confidence Suite on the application to validate critical functionalities following the recent certificate update.
-
-This high-level regression will help ensure application stability, and we will share the test summary upon completion.
-
-Please let me know if there are any specific flows you would like us to include.
-
