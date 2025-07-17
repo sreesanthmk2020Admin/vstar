@@ -188,12 +188,10 @@ class GetCustomerSteps {
 
 ========######=========
 
-Subject: Confidence Suite Execution – Completed Successfully
+I have completed the validation as part of the certificate upgrade activity, and I would like to confirm that all the listed scenarios have passed successfully.
 
-Hi [Recipient’s Name],
+Please let me know if there’s anything further you’d like me to check.
 
-The Confidence Suite execution has been completed successfully. Test cases were included from all key modules, and I’m happy to report that all ten test cases passed without any issues.
+I have completed the validation as part of the certificate upgrade activity, and I would like to confirm that all the listed OBIEE test scenarios have passed successfully. No issues were observed during execution or elsewhere in the flow.
 
-Please let me know if you’d like the detailed report or if there are any further validations required.
-
-Best regards,
+Please let me know if there’s anything further you’d like me to validate.
