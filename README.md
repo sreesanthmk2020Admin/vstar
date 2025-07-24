@@ -188,10 +188,6 @@ class GetCustomerSteps {
 
 ========######=========
 
-I have completed the validation as part of the certificate upgrade activity, and I would like to confirm that all the listed scenarios have passed successfully.
+Noted and confirmed that the latest sprint changes are no longer in QA due to the reversion. We are currently performing the company-level sanity check as requested.
 
-Please let me know if there’s anything further you’d like me to check.
-
-I have completed the validation as part of the certificate upgrade activity, and I would like to confirm that all the listed OBIEE test scenarios have passed successfully. No issues were observed during execution or elsewhere in the flow.
-
-Please let me know if there’s anything further you’d like me to validate.
+Will keep you posted on the findings.
