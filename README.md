@@ -188,6 +188,4 @@ class GetCustomerSteps {
 
 ========######=========
 
-Noted and confirmed that the latest sprint changes are no longer in QA due to the reversion. We are currently performing the company-level sanity check as requested.
-
-Will keep you posted on the findings.
+Post the recent deployment, all current sprint items are now available in the QA environment. I have completed the validation and confirmed that the changes are reflecting as expected.
