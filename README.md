@@ -193,3 +193,10 @@ typeof gives variable type, typeof null is object, typeof non assinged variable 
 let n ={"name":"sree"}
 let z = [1,2,3]
 
+let name = "sree"
+name[1] // r
+tolowercase, trim, split
+parseInt(val)
+
+
+
