@@ -195,7 +195,7 @@ let z = [1,2,3]
 
 let name = "sree"
 name[1] // r
-tolowercase, trim, split
+tolowercase, trim, split, includes, length
 parseInt(val)
 
 let x=90
