@@ -198,5 +198,10 @@ name[1] // r
 tolowercase, trim, split
 parseInt(val)
 
+let x=90
+let num = ${x}
+log(num)
+
+
 
 
