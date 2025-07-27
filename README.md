@@ -188,4 +188,5 @@ class GetCustomerSteps {
 
 ========######=========
 
-Post the recent deployment, all current sprint items are now available in the QA environment. I have completed the validation and confirmed that the changes are reflecting as expected.
+ console. log, error , warn
+typeof gives variable type, typeof null is object, typeof non assinged variable is undefined
