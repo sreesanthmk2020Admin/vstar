@@ -190,3 +190,6 @@ class GetCustomerSteps {
 
  console. log, error , warn
 typeof gives variable type, typeof null is object, typeof non assinged variable is undefined
+let n ={"name":"sree"}
+let z = [1,2,3]
+
