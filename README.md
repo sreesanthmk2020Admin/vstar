@@ -187,21 +187,14 @@ class GetCustomerSteps {
     }
 
 ========######=========
+Generate Gherkin-style test scenarios for the following acceptance criteria:
 
- console. log, error , warn
-typeof gives variable type, typeof null is object, typeof non assinged variable is undefined
-let n ={"name":"sree"}
-let z = [1,2,3]
+Acceptance Criteria:
+“HH row id” and “HH Row” columns should be visible in the household section for x, y, and z views. Columns should not be visible in other views.
 
-let name = "sree"
-name[1] // r
-tolowercase, trim, split, includes, length
-parseInt(val)
+Each scenario should follow:
+- Feature
+- Scenario
+- Given / When / Then structure
 
-let x=90
-let num = ${x}
-log(num)
-
-
-
-
+Include both positive and negative cases.
