@@ -187,14 +187,11 @@ class GetCustomerSteps {
     }
 
 ========######=========
-Generate Gherkin-style test scenarios for the following acceptance criteria:
+Hi [Manager’s Name],
+Hope you’re doing well. I understand that August leave plans have already been collected, and with [Teammate’s Name] starting their medical leave today, I truly understand the current constraints. I just wanted to check if it would be possible for me to take this Friday ([Date]) off due to a personal commitment I finalized over the weekend.
+I’ll make sure all my deliverables are taken care of well in advance. Please let me know if this can be considered — I’d really appreciate it.
 
-Acceptance Criteria:
-“HH row id” and “HH Row” columns should be visible in the household section for x, y, and z views. Columns should not be visible in other views.
+Hi [Manager’s Name],
+Hope you’re doing well. I wanted to check if it would be okay for me to take this Friday ([Date]) off due to a personal commitment I finalized over the weekend. I’m aware that [Teammate’s Name] has just started their medical leave, and I’ll make sure all my deliverables are in place before Friday to avoid any impact.
+Please let me know if that works — appreciate your understanding.
 
-Each scenario should follow:
-- Feature
-- Scenario
-- Given / When / Then structure
-
-Include both positive and negative cases.
