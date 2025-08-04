@@ -194,4 +194,4 @@ I’ll make sure all my deliverables are taken care of well in advance. Please l
 Hi [Manager’s Name],
 Hope you’re doing well. I wanted to check if it would be okay for me to take this Friday ([Date]) off due to a personal commitment I finalized over the weekend. I’m aware that [Teammate’s Name] has just started their medical leave, and I’ll make sure all my deliverables are in place before Friday to avoid any impact.
 Please let me know if that works — appreciate your understanding.
-
+I’ll take care of the ongoing QA activities, and in case anything appears to be at risk or derailing, I’ll make sure to inform you well in advance.
