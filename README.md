@@ -187,11 +187,5 @@ class GetCustomerSteps {
     }
 
 ========######=========
-Hi [Manager’s Name],
-Hope you’re doing well. I understand that August leave plans have already been collected, and with [Teammate’s Name] starting their medical leave today, I truly understand the current constraints. I just wanted to check if it would be possible for me to take this Friday ([Date]) off due to a personal commitment I finalized over the weekend.
-I’ll make sure all my deliverables are taken care of well in advance. Please let me know if this can be considered — I’d really appreciate it.
 
-Hi [Manager’s Name],
-Hope you’re doing well. I wanted to check if it would be okay for me to take this Friday ([Date]) off due to a personal commitment I finalized over the weekend. I’m aware that [Teammate’s Name] has just started their medical leave, and I’ll make sure all my deliverables are in place before Friday to avoid any impact.
-Please let me know if that works — appreciate your understanding.
-I’ll take care of the ongoing QA activities, and in case anything appears to be at risk or derailing, I’ll make sure to inform you well in advance.
+In RR views, the XX field is rendered as a free-text input, whereas in JJ-specific views, it is implemented as a List of Values (LOV). This discrepancy is observed even when performing query operations, which may lead to inconsistent data entry in the CRM.
