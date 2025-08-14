@@ -188,4 +188,6 @@ class GetCustomerSteps {
 
 ========######=========
 
+Hi [Manager’s Name], I’d like to take leave on [dates] to celebrate Onam with my family in Kerala. I’ve checked with the team about upcoming tasks and will ensure everything is taken care of before I leave.
+
 In RR views, the XX field is rendered as a free-text input, whereas in JJ-specific views, it is implemented as a List of Values (LOV). This discrepancy is observed even when performing query operations, which may lead to inconsistent data entry in the CRM.
