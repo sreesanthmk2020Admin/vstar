@@ -187,5 +187,7 @@ class GetCustomerSteps {
     }
 
 ========######=========
+We recommend migrating and retaining all CRM test cases to qTest. Currently, QC serves as the only repository for our legacy test cases, and ensuring their complete migration will help preserve historical validation and coverage.
 
+At a later stage, when we migrate to WebdriverIO, this repository can also serve as reliable documentation — acting as a matrix to track and map test coverage effectively.
 For your information, I recommend migrating and retaining all CRM test cases to qTest. As of now, QC serves as the only repository for our legacy test cases, and ensuring their complete migration will help maintain historical validation and proper coverage moving forward.
