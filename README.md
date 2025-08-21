@@ -188,6 +188,18 @@ class GetCustomerSteps {
 
 ========######=========
 
-Thank you for the kind appreciation. I’m glad the attention to detail has been valuable, and I’ll strive to maintain the same standard in future tasks as well.”
+Subject: Copilot Usage Summary Across Teams
 
+Hi [Manager’s Name],
+
+As discussed in today’s call, I’ve consolidated the inputs from all teams on how they are utilizing Copilot. Please find below the details along with the progress tracker I’ve been maintaining:
+	•	My Team (QA – CRM): Demonstrated test case creation, benefits, and progress tracker (attached).
+	•	[Team 2 Name]: [Bullet points they shared].
+	•	[Team 3 Name]: [Bullet points they shared].
+	•	[Team 4 Name]: [Bullet points they shared].
+
+This summary should give a quick view of the adoption and usage patterns across teams.
+
+Thanks & Regards,
+[Your Name]
 ggg
