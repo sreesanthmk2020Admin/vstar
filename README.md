@@ -1,4 +1,4 @@
-see# import org.openqa.selenium.chrome.ChromeOptions
+psee# import org.openqa.selenium.chrome.ChromeOptions
 import com.kms.katalon.core.webui.driver.DriverFactory
 
 ChromeOptions options = new ChromeOptions()
@@ -188,18 +188,42 @@ class GetCustomerSteps {
 
 ========######=========
 
-Subject: Copilot Usage Summary Across Teams
+📂 Katalon_Automation_Project
+ ┣ 📂 Profiles
+ ┃ ┣ 📄 default_profile.prf      → Contains sync time, test user id, file locations, screenshot configs
+ ┃ ┣ 📄 UAT_profile.prf          → UAT-specific URL, environment data, and configs
+ ┃ ┗ 📄 PROD_profile.prf         → Production-specific URL, environment data, and configs
 
-Hi [Manager’s Name],
+ ┣ 📂 Test Objects
+ ┃ ┣ 📂 Common_Objects           → Shared reusable objects across modules
+ ┃ ┣ 📂 Siebel_Views             → Siebel-specific UI elements and locators
+ ┃ ┗ 📂 Utilities                → Helper test objects (e.g., popup handlers, loaders)
 
-As discussed in today’s call, I’ve consolidated the inputs from all teams on how they are utilizing Copilot. Please find below the details along with the progress tracker I’ve been maintaining:
-	•	My Team (QA – CRM): Demonstrated test case creation, benefits, and progress tracker (attached).
-	•	[Team 2 Name]: [Bullet points they shared].
-	•	[Team 3 Name]: [Bullet points they shared].
-	•	[Team 4 Name]: [Bullet points they shared].
+ ┣ 📂 Test Cases
+ ┃ ┣ 📂 Golden_Legacy_Vault      → Stable regression pack with trusted old scenarios
+ ┃ ┃ ┣ 📂 Service_Request        → Legacy automation for Service Request workflows
+ ┃ ┃ ┣ 📂 Household              → Legacy automation for Household module
+ ┃ ┃ ┗ 📂 Payments               → Legacy automation for Payments and Transactions
+ ┃ ┣ 📂 NextGen_Vault            → New release automation pack (future-ready scenarios)
+ ┃ ┃ ┣ 📂 Service_Request        → Release automation for Service Request workflows
+ ┃ ┃ ┣ 📂 Household              → Release automation for Household module
+ ┃ ┃ ┗ 📂 Payments               → Release automation for Payments and Transactions
+ ┃ ┗ 📂 Utilities                → Common reusable test cases (login, data setup, teardown)
 
-This summary should give a quick view of the adoption and usage patterns across teams.
+ ┣ 📂 Test Suites
+ ┃ ┣ 📂 Regression_Suites        → Bundled suites for stable regression execution
+ ┃ ┗ 📂 Release_Suites           → Bundled suites for new release verification
 
-Thanks & Regards,
-[Your Name]
+ ┣ 📂 Reports
+ ┃ ┣ 📂 ExtentReports            → HTML reports generated via Extent framework
+ ┃ ┗ 📂 AllureReports            → Advanced Allure reports with step logs & screenshots
+
+ ┣ 📂 Drivers
+ ┃ ┗ 📂 Browser_Drivers          → Chrome, Edge, and Firefox driver executables
+
+ ┣ 📂 Libs
+ ┃ ┗ 📄 CustomKeywords.groovy    → User-defined reusable keywords and utilities
+
+ ┣ 📄 README.md                  → Setup guide, branch strategy, execution steps
+ ┗ 📄 .gitignore                 → Git ignore rules for local and build artifacts
 ggg
