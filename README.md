@@ -187,43 +187,18 @@ class GetCustomerSteps {
     }
 
 ========######=========
+As discussed, I’ve been using MS Copilot for test case generation. So far, I’ve been able to generate the desired test cases for UI-related stories, which are captured in the attached tracker.
 
-📂 Katalon_Automation_Project
- ┣ 📂 Profiles
- ┃ ┣ 📄 default_profile.prf      → Contains sync time, test user id, file locations, screenshot configs
- ┃ ┣ 📄 UAT_profile.prf          → UAT-specific URL, environment data, and configs
- ┃ ┗ 📄 PROD_profile.prf         → Production-specific URL, environment data, and configs
+For functional stories, I’m still working on refining the prompts. These usually require me to explain and elaborate on the functionality at least once in detail, but I’m seeing steady improvement in output quality as the prompts evolve.
 
- ┣ 📂 Test Objects
- ┃ ┣ 📂 Common_Objects           → Shared reusable objects across modules
- ┃ ┣ 📂 Siebel_Views             → Siebel-specific UI elements and locators
- ┃ ┗ 📂 Utilities                → Helper test objects (e.g., popup handlers, loaders)
+Looking ahead, I see strong potential for GitHub Copilot to support us when we migrate our Katalon scripts to WebdriverIO, since it can leverage the existing GitHub test case scripts and object locators. I plan to explore this further once the current release is completed or during the December freeze window.
 
- ┣ 📂 Test Cases
- ┃ ┣ 📂 Golden_Legacy_Vault      → Stable regression pack with trusted old scenarios
- ┃ ┃ ┣ 📂 Service_Request        → Legacy automation for Service Request workflows
- ┃ ┃ ┣ 📂 Household              → Legacy automation for Household module
- ┃ ┃ ┗ 📂 Payments               → Legacy automation for Payments and Transactions
- ┃ ┣ 📂 NextGen_Vault            → New release automation pack (future-ready scenarios)
- ┃ ┃ ┣ 📂 Service_Request        → Release automation for Service Request workflows
- ┃ ┃ ┣ 📂 Household              → Release automation for Household module
- ┃ ┃ ┗ 📂 Payments               → Release automation for Payments and Transactions
- ┃ ┗ 📂 Utilities                → Common reusable test cases (login, data setup, teardown)
+In order to maximize this benefit, I would recommend a few improvements to our existing Katalon scripts:
+	•	Restructuring the folders for consistency across modules.
+	•	Introducing clearer documentation (closer to a BDD style).
+	•	Refining locator naming conventions for better standardization.
 
- ┣ 📂 Test Suites
- ┃ ┣ 📂 Regression_Suites        → Bundled suites for stable regression execution
- ┃ ┗ 📂 Release_Suites           → Bundled suites for new release verification
+These enhancements will help Copilot interpret the scripts more effectively and generate more accurate test cases during migration.
 
- ┣ 📂 Reports
- ┃ ┣ 📂 ExtentReports            → HTML reports generated via Extent framework
- ┃ ┗ 📂 AllureReports            → Advanced Allure reports with step logs & screenshots
-
- ┣ 📂 Drivers
- ┃ ┗ 📂 Browser_Drivers          → Chrome, Edge, and Firefox driver executables
-
- ┣ 📂 Libs
- ┃ ┗ 📄 CustomKeywords.groovy    → User-defined reusable keywords and utilities
-
- ┣ 📄 README.md                  → Setup guide, branch strategy, execution steps
- ┗ 📄 .gitignore                 → Git ignore rules for local and build artifacts
+Attached is the tracker I’ve maintained for UI test cases, and I’ll continue updating it for upcoming test case generation activities
 ggg
