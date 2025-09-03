@@ -187,18 +187,5 @@ class GetCustomerSteps {
     }
 
 ========######=========
-As discussed, I’ve been using MS Copilot for test case generation. So far, I’ve been able to generate the desired test cases for UI-related stories, which are captured in the attached tracker.
-
-For functional stories, I’m still working on refining the prompts. These usually require me to explain and elaborate on the functionality at least once in detail, but I’m seeing steady improvement in output quality as the prompts evolve.
-
-Looking ahead, I see strong potential for GitHub Copilot to support us when we migrate our Katalon scripts to WebdriverIO, since it can leverage the existing GitHub test case scripts and object locators. I plan to explore this further once the current release is completed or during the December freeze window.
-
-In order to maximize this benefit, I would recommend a few improvements to our existing Katalon scripts:
-	•	Restructuring the folders for consistency across modules.
-	•	Introducing clearer documentation (closer to a BDD style).
-	•	Refining locator naming conventions for better standardization.
-
-These enhancements will help Copilot interpret the scripts more effectively and generate more accurate test cases during migration.
-
-Attached is the tracker I’ve maintained for UI test cases, and I’ll continue updating it for upcoming test case generation activities
-ggg
+The Step 2 issue was already identified and noted in the defect comments while retesting Step 4, and the developer was aware with a plan to address it as a separate fix. I’ll make sure to cover related steps more thoroughly in upcoming validations.”
+gg
