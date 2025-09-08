@@ -187,5 +187,13 @@ class GetCustomerSteps {
     }
 
 ========######=========
-The Step 2 issue was already identified and noted in the defect comments while retesting Step 4, and the developer was aware with a plan to address it as a separate fix. I’ll make sure to cover related steps more thoroughly in upcoming validations.”
+Dear Team,
+
+Thank you for the update. I will be sharing the System Test Report (STR) by 12th September as part of the sign-off for the planned release on 17th September. The report will include:
+	•	Stage sign-off of all mentioned user stories
+	•	Stage test results
+	•	Regression test results
+
+This week, I’ll be working on compiling the details, as one item is under fix and another is pending validation.
+
 gg
