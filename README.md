@@ -200,6 +200,6 @@ Please revert in case of any access issues to the attached links.
 Regards,
 [Your Name]
 
-
+Had planned full regression on Stage this weekend, but since maintenance is scheduled on Saturday, I’ll proceed with the run once the team confirms Stage is back and stable. Please give me a quick heads-up when it’s available.”
 
 hh
