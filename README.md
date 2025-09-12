@@ -186,14 +186,20 @@ class GetCustomerSteps {
         KeywordUtil.logInfo("Customer Name from response: " + customerName)
     }
 
-========######=========
+========######======
 Dear Team,
 
-Thank you for the update. I will be sharing the System Test Report (STR) by 12th September as part of the sign-off for the planned release on 17th September. The report will include:
-	•	Stage sign-off of all mentioned user stories
-	•	Stage test results
-	•	Regression test results
+Please consider this as formal sign-off for Release 3.1.23.
+	•	Functional Testing was performed in the Test environment, with all relevant test cases executed and evidences attached.
+	•	Regression Testing was executed in the Stage environment, and the corresponding reports are attached.
+	•	61 Legacy Test Cases were executed successfully in Stage, with results attached.
+	•	UI Column Header Validation was also completed, and evidences are attached.
 
-This week, I’ll be working on compiling the details, as one item is under fix and another is pending validation.
-Fix is working functionally, but performance of the Previous button is significantly impacted due to the change.”
-gg
+Please revert in case of any access issues to the attached links.
+
+Regards,
+[Your Name]
+
+
+
+hh
