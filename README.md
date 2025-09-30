@@ -188,46 +188,6 @@ class GetCustomerSteps {
 
 ========######======
 
-Item
-Notes
-9:00 AM
-Milk tea (no sugar)
-Avoid with supplements.
-10:00 AM
-2 country eggs
-Protein + healthy fat.
-10:30 AM (Post-breakfast)
-Fetisure M Combo (Fetisure M + L-Carnitine + CoQ10 + Zinc + Lycopene + Astaxanthin)
-Take with eggs → fat improves absorption. Replaces Zincovite.
-12:00 PM (Brunch)
-Balanced meal + 1 country egg
-50% vegetables, 25% protein, 25% complex carbs. Adding the egg increases protein.
-2:00 PM
-Milk tea (no sugar)
-Keep 1 hr gap after supplements.
-3:00 PM
-Nuts Mix (Mamra almonds 5–6, walnuts 2 halves, cashews 4–5, pista 4–5, kismis 5–6, Brazil nut 1) + Seacod ×2
-Healthy fats + Omega-3 → skin, heart, recovery.
-4:00 – 5:00 PM
-HRX Workout (strength + cardio, 4–5×/week)
-45–60 mins.
-Pre-Workout (3:30 PM)
-1 banana or 3 soaked raisins + 4–5 almonds
-Quick energy boost.
-Post-Workout (5:15 PM)
-1 boiled country egg or whey protein + ½ tsp jaggery (optional)
-Protein + recovery support.
-5:30 PM
-Black coffee
-If workout is intense, shift coffee to 6 PM. Avoid late-night intake.
-8:00 PM (Dinner)
-Light balanced meal
-Avoid heavy/oily food. Add veggies + healthy fat (olive oil/ghee).
-Night (Skin Care)
-Cleanse + Niacinamide/Azelaic acid + Moisturizer
-Helps pigmentation.
-Weekly/Monthly
-Vitamin D supplement (as prescribed)
-Take with lunch/dinner containing fat.
+Views marked as Not Required have not been considered for implementation. Please note that the respective columns have not been removed from the list view.”
 
 hh
