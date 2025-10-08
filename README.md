@@ -188,6 +188,22 @@ class GetCustomerSteps {
 
 ========######======
 
-Views marked as Not Required have not been considered for implementation. Please note that the respective columns have not been removed from the list view.”
+Subject: Detailed Validation Update – Dropdown Value Availability and Sorting Verification
 
-hh
+Hi [Name/Team],
+
+As part of the current user story, I have completed a comprehensive validation for the two specified dropdown fields on the screen.
+
+The value availability for these fields has been validated against the test data sheet (attached) to ensure that all expected values defined in the requirement document are correctly displayed in the application. Additionally, I have verified the alphabetical sorting for these fields to confirm that the values are listed in the expected logical order.
+
+Beyond these two fields, I also extended the verification to include all dropdowns on the screen. During this extended review, I observed that multiple dropdowns are not sorted alphabetically. While the data values are correctly populated, the order does not consistently follow the expected sequence.
+
+The test data sheet and detailed execution reports generated from Katalon are attached for reference. These documents include the validation results, observed discrepancies, and screenshots where applicable.
+
+Could you please review and confirm whether we should log defects for the dropdowns with incorrect sorting, or if this behavior is acceptable based on current business logic or backend configuration?
+
+Additionally, please let me know if you’d like me to walk you through the implementation details — I can give a quick overview of the automation logic and how the validations have been handled in Katalon.
+
+Best regards,
+[Your Name]
+QA Automation Team
