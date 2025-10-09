@@ -290,3 +290,36 @@ Attachments:
 Confluence reference: [Link to Page]
 (Detailed QA way-of-working items will be updated progressively.)
 
+Subject: Dropdown Validation Scope & Discussion on Findings
+
+Hi [Architect’s Name] / Team,
+
+Following our call, I would like to formally summarize the dropdown validation scope and next steps:
+	•	Current validation results are as expected.
+	•	Fields to be reconsidered for detailed validation:
+	•	Product
+	•	Service (dependent on Product selection)
+	•	Issue (dependent on Service selection)
+	•	Actions and Segmentation dropdowns are out of scope for now.
+	•	LOVs for Product, Service, and Issue will be validated during new Service Request creation, considering hierarchical dependencies.
+
+I have started documenting the initial regression coverage in Confluence.
+Highlights included so far:
+	•	LOV (List of Values) Validation – value availability and alphabetical sorting for Product → Service → Issue and additional LOVs on the screen.
+	•	UI Checklist / Visual Verification – table headers, page elements, and key navigation components.
+
+Confluence link for reference: [Insert Link]
+(Other QA way-of-working items such as DoR/DoD, story estimation, and regression suite creation standards will be added progressively.)
+
+I’ll be available tomorrow right after the stand-up to walk through the findings, validation details, and supporting reports with stakeholders.
+
+Proposed Discussion Agenda:
+	1.	Validation scope & approach
+	2.	Key observations & deviations
+	3.	Next steps and defect logging (if required)
+
+Please confirm if this time works for everyone, or suggest an alternate slot.
+
+Best regards,
+[Your Name]
+QA Automation Team
