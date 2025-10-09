@@ -234,5 +234,55 @@ Best regards,
 [Your Name]
 QA Automation Team
 
+--------
+
+Regression Testing – Initial Coverage
+
+1. Purpose
+
+This page captures the initial regression coverage for [Project Name], focusing on LOV validations and UI checklist / visual verification. It serves as a starting point for building the full regression suite.
+
+⸻
+
+2. LOV (List of Values) Validation
+
+Scope:
+	•	Validating value availability and alphabetical sorting for hierarchical dropdowns:
+	•	Product → determines available Services
+	•	Service → determines available Issues
+	•	Issue → dependent on Service selection
+
+Validation Approach:
+	1.	Verify that all expected values from the test data sheet are available in the dropdown.
+	2.	Check that dropdown options are sorted alphabetically.
+	3.	Capture screenshots and execution reports for reference.
+	4.	Apply the same check for additional LOVs on the screen for extended coverage.
+
+Vault Mapping:
+	•	Included in regression under Golden Legacy Vault for existing validations.
+
+Attachments:
+	•	Test data sheet
+	•	Katalon execution reports
+
+⸻
+
+3. UI Checklist / Visual Verification
+
+Scope:
+	•	Verify table column headers, page elements, and key navigation components.
+	•	Checklist will grow based on new requirements or release changes.
+
+Validation Approach:
+	1.	Identify critical UI elements to validate per screen.
+	2.	Confirm presence, labels, and alignment of headers and elements.
+	3.	Capture screenshots for failed or missing elements.
+	4.	Track all validated elements in the regression suite under UI Visual Vault.
+
+Vault Mapping:
+	•	UI-related verifications stored under UI Visual Vault in regression repository.
+
+Attachments:
+	•	Execution reports with screenshots
 
 
