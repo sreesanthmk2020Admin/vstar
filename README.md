@@ -286,3 +286,7 @@ Attachments:
 	•	Execution reports with screenshots
 
 
+
+Confluence reference: [Link to Page]
+(Detailed QA way-of-working items will be updated progressively.)
+
