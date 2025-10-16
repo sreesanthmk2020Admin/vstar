@@ -318,3 +318,117 @@ To validate the functionality of the new RM Change REST API that updates Relatio
 	•	Validate audit entry in S_RM_CHANGE_HIST with correct old/new RM IDs, effective date, and user.
 	•	Validate no orphan data in S_ACCNT_POSTN after RM change.
 	•	Validate Account owner hierarchy remains consistent post-update.
+cc
+
+
+
+KATALON EMAIL CONFIGURATION (OUTLOOK / FIFTH THIRD BANK)
+
+========================================
+STEP 1: OPEN EMAIL SETTINGS
+========================================
+Go to:
+Project → Settings → Email
+
+========================================
+STEP 2: SMTP DETAILS (OUTLOOK / OFFICE 365)
+========================================
+SMTP Server: smtp.office365.com
+Port: 587
+Username: your_email@53.com
+Password: your_app_password_or_outlook_password
+Encryption: STARTTLS
+Authentication: Enabled
+
+========================================
+STEP 3: RECIPIENTS
+========================================
+Send to: sreesanth@53.com, qa_team@53.com
+
+========================================
+STEP 4: EMAIL TEMPLATE
+========================================
+Subject:
+[Katalon] Test Suite Execution - ${testSuiteId} - ${executionStatus}
+
+Body:
+Hello Team,
+
+Test Suite: ${testSuiteId}
+Status: ${executionStatus}
+Total Tests: ${totalTestCases}
+Passed: ${passedTestCases}
+Failed: ${failedTestCases}
+
+Please find the attached report for details.
+
+Regards,
+Katalon Automation Framework
+
+Options:
+☑ Attach report
+☑ Send when execution completed successfully or failed
+
+========================================
+STEP 5: TEST EMAIL CONNECTION
+========================================
+Click: Test Connection
+Expected message: “Email connection is successful.”
+
+If not:
+- Verify username/password
+- Ensure port 587 is open
+- Use App Password if MFA is enabled
+
+========================================
+STEP 6: ENABLE EMAIL FOR TEST SUITE
+========================================
+Open your Test Suite → Execution Information panel
+Tick: "Send email notification"
+Select: Default Email Profile
+
+========================================
+STEP 7: RUN TEST SUITE
+========================================
+After execution:
+- Katalon auto-generates report
+- Sends email via Outlook SMTP
+- Attaches report if selected
+
+========================================
+STEP 8: OPTIONAL (CI/CD INTEGRATION)
+========================================
+If using Jenkins or CLI (Runtime Engine):
+Ensure the same email settings are present in:
+<project_path>\settings\internal\com.kms.katalon.execution.properties
+
+Katalon will use these to send post-execution summary emails.
+
+========================================
+STEP 9: CREATE OUTLOOK APP PASSWORD (REQUIRED IF MFA ENABLED)
+========================================
+1. Open a web browser and go to:
+   https://account.microsoft.com/security
+
+2. Sign in using your corporate Outlook (Microsoft 365) account.
+
+3. Under the section "Additional Security Options", click:
+   “App passwords” or “Create a new app password”
+
+4. Click "Create a new app password"
+
+5. Copy the generated password (it will be a 16-character code).
+
+6. Use this app password in Katalon instead of your normal Outlook password.
+
+7. Save your settings and click “Test Connection” again in Katalon.
+
+Expected message:
+✅ “Email connection is successful.”
+
+========================================
+NOTES:
+========================================
+- App Passwords bypass multi-factor authentication for trusted apps.
+- Keep the app password private and use it only inside Katalon.
+- If the connection fails, contact your IT/security team to confirm if SMTP sending is allowed for your user account.
