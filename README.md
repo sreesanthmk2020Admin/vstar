@@ -152,3 +152,11 @@ Feature: Create Service Request and verify UI
     And SR should be visible in UI with matching product, service and issue
 
 katalonc.exe -noSplash -runMode=console -projectPath="C:\projects\katalon\myproject.prj" -testSuitePath="Test Suites/Release_25.4_API_UI_Smoke" -executionProfile="default" -browserType="Chrome"
+
+
+Hi [Tech Lead’s Name],
+
+Sure, I’ll take it up for testing in the next sprint.
+
+Best regards,
+[Your Name]
