@@ -1,4 +1,4 @@
-Quick overview (high level)
+	Quick overview (high level)
 	1.	Create / parameterize a RESTful Web Service Request in Object Repository.
 	2.	Create Test Data / Profiles for input values.
 	3.	Create a Test Case (or BDD feature + step defs) that:
@@ -160,3 +160,161 @@ Sure, I’ll take it up for testing in the next sprint.
 
 Best regards,
 [Your Name]
+
+
+TEST SCENARIO DOCUMENT – RM CHANGE API
+System: Siebel CRM
+Module: RM Change (Account / Household / Opportunity)
+API Type: REST (New Development)
+Purpose:
+To validate the functionality of the new RM Change REST API that updates Relationship Manager (RM), Division, LOB, and Position details for existing entities in Siebel CRM, ensuring data accuracy, workflow triggers, audit capture, and downstream system sync.
+
+⸻
+
+1. BASIC FUNCTIONAL SCENARIOS
+	1.	Verify RM change for valid Account ID and valid RM ID → Success response.
+	2.	Verify RM change reflected in Siebel UI (Account screen).
+	3.	Verify corresponding record updated in S_ORG_EXT table.
+	4.	Verify PR_POSTN_ID updated with new RM position ID.
+	5.	Verify audit history created in S_RM_CHANGE_HIST with old/new RM details.
+	6.	Verify “Last Updated By” and “Last Updated” timestamp fields updated.
+	7.	Verify workflow “RM Change WF” triggered and completed.
+	8.	Verify EAI logs show request and response XML with status SUCCESS.
+
+⸻
+
+2. RM VALIDATION SCENARIOS
+	9.	Verify error message for invalid RM ID.
+	10.	Verify error message when RM ID field is missing.
+	11.	Verify error message when RM position is inactive.
+	12.	Verify RM change not allowed if RM is end-dated.
+	13.	Verify error when new RM = old RM.
+	14.	Verify error when RM does not exist in Siebel position hierarchy.
+	15.	Verify correct primary position selected if RM has multiple positions.
+	16.	Verify error when RM is not linked to any valid organization/division.
+	17.	Verify RM with no active position returns “RM position inactive” error.
+
+⸻
+
+3. DIVISION SCENARIOS
+	18.	Verify Division field updated based on new RM’s Division.
+	19.	Verify RM from a different Division updates Account Division accordingly.
+	20.	Verify error when new RM’s Division not allowed for the entity type.
+	21.	Verify RM with no Division ID mapped returns “Division not found” error.
+	22.	Verify Division field on Account matches Division from RM’s position record.
+	23.	Verify Division update reflected in S_DIVISION table reference.
+	24.	Verify cross-Division assignment follows access control rules.
+	25.	Verify audit log captures both old and new Division IDs.
+
+⸻
+
+4. LOB (LINE OF BUSINESS) SCENARIOS
+	26.	Verify LOB field updated according to new RM’s LOB.
+	27.	Verify RM from different LOB updates Account LOB accordingly.
+	28.	Verify invalid LOB mapping shows error “LOB not valid for entity.”
+	29.	Verify LOB updates reflected in S_LOB table reference.
+	30.	Verify LOB changes logged in audit history.
+	31.	Verify RM having LOB mismatch with Account results in rejection.
+	32.	Verify Account’s LOB and RM’s LOB remain consistent after change.
+	33.	Verify RM without LOB field configured gives “Missing LOB” error.
+
+⸻
+
+5. POSITION SCENARIOS
+	34.	Verify RM position (S_POSTN) updated and active.
+	35.	Verify error when RM’s position is inactive or end-dated.
+	36.	Verify RM with multiple positions – system should pick the primary one.
+	37.	Verify RM with invalid position ID results in “Position not found.”
+	38.	Verify Account PR_POSTN_ID field updated correctly.
+	39.	Verify RM hierarchy (Position → Division → LOB) alignment.
+	40.	Verify position changes reflected in Account Team view.
+	41.	Verify hierarchy validation – RM’s position must belong to correct org hierarchy.
+	42.	Verify access restrictions if RM position is outside Account’s organization tree.
+
+⸻
+
+6. EFFECTIVE DATE & REASON CODE SCENARIOS
+	43.	Verify RM change with current date → immediate update.
+	44.	Verify RM change with future date → update scheduled for effective date.
+	45.	Verify RM change with past date → handled as per business rule (allowed/rejected).
+	46.	Verify Reason Code (e.g., Territory Reassignment, RM Resignation) captured correctly.
+	47.	Verify API rejects RM change if effective date missing.
+	48.	Verify audit log captures effective date and reason code.
+	49.	Verify RM change executed correctly when effective date = system date.
+	50.	Verify multiple changes for same Account on different effective dates handled properly.
+
+⸻
+
+7. INTEGRATION & WORKFLOW SCENARIOS
+	51.	Verify RM Change workflow triggered in Siebel (“RM Change WF”).
+	52.	Verify EAI Siebel Adapter processes API request successfully.
+	53.	Verify Integration Object “Account RM Change” updated.
+	54.	Verify successful update message logged in eai.log.
+	55.	Verify downstream system (Salesforce / Data Warehouse / CRM360) receives correct updated RM info.
+	56.	Verify Siebel sends outbound message to integration layer (MQ, Mulesoft, etc.).
+	57.	Verify downstream system acknowledges receipt with success status.
+	58.	Verify Siebel error handling when downstream system unavailable.
+	59.	Verify retry mechanism if outbound message fails.
+	60.	Verify data consistency between Siebel and external system after sync.
+
+⸻
+
+8. NEGATIVE SCENARIOS
+	61.	Verify missing mandatory fields (Account ID, RM ID, Division, LOB) → API error.
+	62.	Verify invalid Account ID → “Account not found.”
+	63.	Verify invalid payload format → HTTP 400 error.
+	64.	Verify unauthorized user/token → HTTP 401 error.
+	65.	Verify user without Siebel access cannot change RM.
+	66.	Verify RM change for inactive Account returns error.
+	67.	Verify RM change for closed Account not allowed.
+	68.	Verify RM change rejected when Account status = “Terminated.”
+	69.	Verify duplicate RM change requests handled gracefully.
+	70.	Verify RM change when Siebel DB temporarily unavailable → proper error message.
+
+⸻
+
+9. BULK & PERFORMANCE SCENARIOS
+	71.	Verify multiple Account RM changes in one payload processed correctly.
+	72.	Verify partial success handling if few Account IDs invalid.
+	73.	Verify bulk API request response time within SLA (e.g., < 5 sec per request).
+	74.	Verify Siebel performance with high volume RM updates.
+	75.	Verify system rollback on partial transaction failure.
+	76.	Verify retry logic for failed records in bulk request.
+
+⸻
+
+10. DATA VALIDATION SCENARIOS
+	77.	Verify Siebel tables updated correctly:
+
+	•	S_ORG_EXT → PR_POSTN_ID, DIVISION_ID, LOB_ID
+	•	S_ACCNT_POSTN → RM assignment record
+	•	S_RM_CHANGE_HIST → Audit details
+
+	78.	Verify old and new RM details captured accurately.
+	79.	Verify Last Updated By field = Integration User.
+	80.	Verify Last Updated timestamp matches API call time.
+	81.	Verify RM details visible in Siebel Account Summary view.
+	82.	Verify Audit Trail view displays RM change with old/new details.
+	83.	Verify integration logs have matching transaction ID across systems.
+
+⸻
+
+11. BOUNDARY & SPECIAL SCENARIOS
+	84.	Verify RM change for Account linked to multiple contacts.
+	85.	Verify RM change for Household cascades to linked Accounts (if applicable).
+	86.	Verify RM change on Opportunity updates related records.
+	87.	Verify RM change rolled back if any sub-transaction fails.
+	88.	Verify concurrent API and UI RM change handled properly.
+	89.	Verify no duplicate RM history records created.
+	90.	Verify same RM change attempted twice returns “No Change Required.”
+	91.	Verify error messages are descriptive and aligned to API specification.
+	92.	Verify system behavior during Siebel restart or workflow abort.
+
+⸻
+
+12. SQL VERIFICATION
+	•	Validate PR_POSTN_ID in S_ORG_EXT reflects new RM’s position.
+	•	Validate Division and LOB fields match RM’s hierarchy.
+	•	Validate audit entry in S_RM_CHANGE_HIST with correct old/new RM IDs, effective date, and user.
+	•	Validate no orphan data in S_ACCNT_POSTN after RM change.
+	•	Validate Account owner hierarchy remains consistent post-update.
