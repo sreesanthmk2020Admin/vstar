@@ -1,13 +1,13 @@
-A) A scenario testers are creating
+Subject: Urgent: PreProd Environment Down – Bubble-Up Round 2 Blocked
 
-(Example: “We changed 1 closed account to active and added officer 12567. What should we see?”)
-or
+Hi Support Team,
 
-B) A question from test team
+This is urgent — upon checking after 12 PM IST, PreProd is not accessible. Requesting immediate attention to restore the environment at the earliest.
 
-(Example: “If one account is active but missing officer number, what should CRM show?”)
-or
+Informing the team that Bubble-Up Testing – Round 2 is currently blocked until PreProd is back up.
 
-C) A defect they reported
+Thanks,
+[Your Name]
 
-(Example: “Closed account is still showing bubble-up officer, is this defect valid?”)
+Teams Message (Urgent):
+“PreProd is not accessible since I checked after 12 PM IST. Support team, request urgent help to restore the environment. Bubble-Up Round 2 is blocked until PreProd is back up.”
