@@ -1,13 +1,22 @@
-Subject: Urgent: PreProd Environment Down – Bubble-Up Round 2 Blocked
+Subject: Update on LOV Sorting Validation – Findings and Status
 
-Hi Support Team,
+Hi [Name/Team],
 
-This is urgent — upon checking after 12 PM IST, PreProd is not accessible. Requesting immediate attention to restore the environment at the earliest.
+As part of the user story for validating the alphabetical sorting of LOVs, I have completed the checks across all relevant dropdown fields, including the hierarchical fields (Product → Service → Issue) based on their dependent selections.
 
-Informing the team that Bubble-Up Testing – Round 2 is currently blocked until PreProd is back up.
+During this validation, I identified five LOVs that are not sorted in the expected alphabetical order. The details are as follows:
+	1.	[LOV Name 1] – [Issue summary]
+	2.	[LOV Name 2] – [Issue summary]
+	3.	[LOV Name 3] – [Issue summary]
+	4.	[LOV Name 4] – [Issue summary]
+	5.	[LOV Name 5] – [Issue summary]
 
-Thanks,
+Please confirm if defects should be logged for these observations.
+
+This story extended across multiple sprints due to Katalon automation challenges in handling dynamic hierarchical LOVs and other higher-priority QA items during the same period. These issues have now been addressed, and the validation is complete.
+
+Kindly let me know if any further checks or updates are required.
+
+Regards,
 [Your Name]
-
-Teams Message (Urgent):
-“PreProd is not accessible since I checked after 12 PM IST. Support team, request urgent help to restore the environment. Bubble-Up Round 2 is blocked until PreProd is back up.”
+QA Automation Team
