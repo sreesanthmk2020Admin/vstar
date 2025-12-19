@@ -1,1 +1,2 @@
-Hi [PO’s Name], the XXX validation has been completed. With the upcoming data refresh, could you please confirm whether the same validation is required again post-refresh? If so, requesting one working day after the refresh and before the incremental job starts to complete it.”
+
+“All existing scenarios have been executed successfully and the test results are as expected. A few additional edge cases have been identified and will be validated after the data refresh. Once completed, the results will be documented and shared as part of governance.”
