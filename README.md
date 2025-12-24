@@ -1,2 +1,10 @@
+Subject: Scenarios & Test Data Setup for Companies and Contacts – Review Requested
 
-“All existing scenarios have been executed successfully and the test results are as expected. A few additional edge cases have been identified and will be validated after the data refresh. Once completed, the results will be documented and shared as part of governance.”
+Hi [Business Tester’s Name],
+
+Please find below the list of test scenarios for Companies and Contacts, along with the corresponding test data setup. The same scenarios have been applied for both entities.
+
+The test data has been prepared to undergo the Match-Merge job by keeping the Name, Phone Number, and Address consistent across records. Kindly review the scenarios and data setup, and let me know if there are any additional scenarios you’d like us to cover.
+
+Thanks & Regards,
+[Your Name]
