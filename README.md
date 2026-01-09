@@ -1,5 +1,22 @@
 Defect Summary:
-Incorrect data displayed under correct column header in provided data file
+LOV-driven list view column headers not displayed
 
-Defect Description:
-The developer has completed the fix and shared two data files for validation. In one of the files, although the column header is correct, the data populated under that column is incorrect and does not match the expected values. The other file appears to be correct. This indicates a data mapping or population issue specific to the impacted file and needs correction.
+Description:
+The list view column headers configured to be populated from an LOV are not appearing in the UI, resulting in blank column headers.
+
+Steps to Reproduce:
+	1.	Navigate to the affected screen/view.
+	2.	Open the list view where column headers are driven by an LOV.
+	3.	Observe the column headers.
+
+Expected Result:
+List view column headers should display values populated from the configured LOV.
+
+Actual Result:
+List view column headers are blank; LOV values are not displayed.
+
+Impact:
+Users are unable to identify or interpret list view columns, affecting usability and business validation.
+
+Severity:
+High
