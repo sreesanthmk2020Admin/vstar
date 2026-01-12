@@ -374,3 +374,93 @@ Next Steps After KT
 	•	A CRM glossary for freshers
 
 Just tell me what you want next.
+
+
+================
+
+practical, not academic.
+
+⸻
+
+🧭 Overall Learning Roadmap (QA-Focused)
+
+Duration: ~12 weeks
+Time: 1 hour/day, Monday–Friday
+Outcome:
+	•	Write clean Python code
+	•	Automate UI + API tests
+	•	Work with files, JSON, DB
+	•	Crack Python QA interview questions
+
+⸻
+
+🗓️ Phase-wise Plan
+
+🔹 Phase 1: Python Fundamentals (Weeks 1–3)
+
+Goal: Think in Python
+
+	•	Variables & data types
+	•	Strings, numbers, booleans
+	•	Lists, tuples, sets, dictionaries
+	•	Conditions (if/else)
+	•	Loops (for, while)
+	•	Functions
+	•	Basic problem solving
+
+💡 QA relevance: data handling, test data creation, validations
+
+⸻
+
+🔹 Phase 2: Intermediate Python (Weeks 4–5)
+
+Goal: Write professional code
+
+	•	Modules & packages
+	•	Exception handling (try/except)
+	•	File handling (txt, csv, json)
+	•	OOP (class, object, inheritance)
+	•	Virtual environments
+	•	pip & libraries
+
+💡 QA relevance: framework design, reusable utilities
+
+⸻
+
+🔹 Phase 3: Python for Automation (Weeks 6–8)
+
+Goal: Become a Python QA Engineer
+
+	•	PyTest framework
+	•	Assertions & reports
+	•	Test structure & fixtures
+	•	Selenium with Python
+	•	Page Object Model (POM)
+	•	API automation (requests library)
+
+💡 Direct Citi relevance: regression automation, API testing
+
+⸻
+
+🔹 Phase 4: Advanced QA Skills (Weeks 9–10)
+
+Goal: Stand out in interviews
+
+	•	Logging
+	•	Config files
+	•	Data-driven testing
+	•	Parallel execution
+	•	DB testing with Python
+	•	CI basics (Jenkins overview)
+
+⸻
+
+🔹 Phase 5: Interview & Real-World Practice (Weeks 11–12)
+
+Goal: Get selected
+
+	•	Python coding questions (QA level)
+	•	Automation framework design questions
+	•	Debugging exercises
+	•	Mock interview questions (Citi-style)
+
