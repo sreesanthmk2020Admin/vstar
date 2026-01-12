@@ -1,22 +1,376 @@
-Defect Summary:
-LOV-driven list view column headers not displayed
+5-Day CRM KT Plan (30 mins/day)
 
-Description:
-The list view column headers configured to be populated from an LOV are not appearing in the UI, resulting in blank column headers.
+Day 1 – CRM Basics & Business Context
 
-Steps to Reproduce:
-	1.	Navigate to the affected screen/view.
-	2.	Open the list view where column headers are driven by an LOV.
-	3.	Observe the column headers.
+Goal: Help them understand what CRM is and why it exists.
 
-Expected Result:
-List view column headers should display values populated from the configured LOV.
+Topics:
+	•	What is CRM? (Customer, relationship, lifecycle)
+	•	Why banks use CRM
+	•	High-level banking flow:
+	•	Customer → Account → Service Request
+	•	Difference between:
+	•	Customer vs Account
+	•	Front office vs Back office
+	•	Where CRM fits in the overall system landscape
 
-Actual Result:
-List view column headers are blank; LOV values are not displayed.
+Outcome:
+They should be able to explain “What does a CRM system do in a bank?”
 
-Impact:
-Users are unable to identify or interpret list view columns, affecting usability and business validation.
+⸻
 
-Severity:
-High
+Day 2 – CRM Modules Overview
+
+Goal: Familiarize them with what modules exist.
+
+Topics:
+	•	Core CRM entities:
+	•	Contacts
+	•	Companies / Households
+	•	Accounts
+	•	Service Requests (SR)
+	•	How modules are linked
+	•	Example flow:
+	•	Customer raises issue → SR created → backend processing
+	•	Simple real-life examples (ATM issue, address change, etc.)
+
+Outcome:
+They should understand how data flows between CRM modules.
+
+⸻
+
+Day 3 – CRM UI & Navigation
+
+Goal: Make them comfortable with the CRM UI.
+
+Topics:
+	•	CRM UI structure:
+	•	Screens
+	•	Views
+	•	Applets
+	•	List View vs Form View
+	•	How users search/query records
+	•	Creating vs updating a record
+	•	What is an LOV (List of Values)
+
+Outcome:
+They should be able to navigate CRM confidently without fear.
+
+⸻
+
+Day 4 – CRM Testing Fundamentals
+
+Goal: Introduce QA thinking in CRM context.
+
+Topics:
+	•	What QA validates in CRM:
+	•	UI
+	•	Data
+	•	Business rules
+	•	Types of testing:
+	•	Functional
+	•	Regression
+	•	Sanity
+	•	What is a defect?
+	•	How to observe and report issues clearly
+	•	Simple examples of:
+	•	UI defect
+	•	Data defect
+	•	LOV defect
+
+Outcome:
+They should understand how QA adds value in CRM projects.
+
+⸻
+
+Day 5 – End-to-End Flow + Expectations
+
+Goal: Connect everything together and set expectations.
+
+Topics:
+	•	End-to-end example:
+	•	Data created → backend job → data reflected in UI
+	•	What is a job / batch / bubble-up (high level)
+	•	How QA collaborates with:
+	•	Dev
+	•	Data
+	•	PO
+	•	Expectations from a junior QA:
+	•	Observing carefully
+	•	Asking questions
+	•	Documenting clearly
+
+Outcome:
+They should have a big-picture understanding of the CRM QA role.
+
+⸻
+
+KT Style Tips (Very Important)
+	•	Use simple language (avoid jargon initially).
+	•	Ask 2–3 questions each day to check understanding.
+	•	Encourage them to repeat concepts in their own words.
+	•	Avoid automation/tools in the first week.
+
+⸻
+
+Optional Follow-Up (Week 2)
+	•	Sit with you during:
+	•	Defect validation
+	•	Regression execution
+	•	Test case review
+	•	Slowly introduce:
+	•	Test cases
+	•	Jira
+	•	CRM-specific terminology
+
+⸻
+
+If you want, I can:
+	•	Convert this into a KT slide deck outline
+	•	Create a daily KT checklist
+	•	Draft a junior QA learning roadmap for 90 days
+
+
+CRM Knowledge Transfer (KT) Document
+
+Project: Fifth Third Bank – CRM
+Audience: New QA Joiner (Fresher)
+KT Duration: 5 Days (30 minutes/day)
+Prepared by: [Your Name]
+
+⸻
+
+1. Introduction to CRM in Fifth Third Bank
+
+1.1 What is CRM?
+
+CRM (Customer Relationship Management) is a system used by Fifth Third Bank to:
+	•	Maintain customer and account information
+	•	Track customer interactions
+	•	Manage service requests and issues
+	•	Support banking operations and compliance
+
+CRM acts as a single source of truth for customer-related data.
+
+⸻
+
+2. CRM Architecture – High-Level View
+
+2.1 Systems Interaction
+	•	CRM (Siebel) – Front-end user application
+	•	Backend Systems – Core banking, data warehouse, external apps
+	•	Batch / Sequence Jobs – Sync data between backend and CRM UI
+	•	ACE / Other Apps – Integrations that consume or push data to CRM
+
+CRM UI does not always update immediately—many changes happen through backend jobs.
+
+⸻
+
+3. Core CRM Entities (Used in Fifth Third Bank)
+
+3.1 Contacts
+	•	Represents an individual customer
+	•	Contains personal information:
+	•	Name
+	•	Phone number
+	•	Address
+	•	Email
+	•	A Contact can be linked to:
+	•	Accounts
+	•	Companies / Households
+	•	Service Requests
+
+⸻
+
+3.2 Companies / Households
+	•	Represents:
+	•	Business customers (Company)
+	•	Group of related individuals (Household)
+	•	Used for:
+	•	Relationship mapping
+	•	Aggregated views of customers
+
+⸻
+
+3.3 Accounts
+	•	Represents banking products:
+	•	Savings
+	•	Checking
+	•	Loan
+	•	Linked to Contacts or Companies
+	•	Often populated via backend feeds
+
+⸻
+
+3.4 Service Requests (SR)
+	•	Used to track customer issues such as:
+	•	ATM issues
+	•	Address updates
+	•	Account inquiries
+	•	SR Lifecycle:
+	•	Created → Assigned → Worked → Closed
+
+⸻
+
+4. CRM UI Structure (Very Important)
+
+4.1 Screens
+
+Top-level navigation (e.g., Contacts, Accounts, Service Requests)
+
+4.2 Views
+
+Different layouts under a screen
+Example: List View, Detail View
+
+4.3 Applets
+
+Small UI components inside a view:
+	•	List Applet (multiple records)
+	•	Form Applet (single record)
+
+4.4 List View vs Form View
+	•	List View: Shows multiple records (columns)
+	•	Form View: Shows detailed data of one record
+
+⸻
+
+5. Key CRM Functionalities
+
+5.1 Query & Search
+	•	Used to find records using filters
+	•	LOVs (List of Values) help standardize values
+
+5.2 LOV (List of Values)
+	•	Predefined value list used in:
+	•	Dropdowns
+	•	Column headers
+	•	Must display correctly (common defect area)
+
+⸻
+
+5.3 Backend Jobs / Bubble-Up
+	•	Backend jobs update CRM UI
+	•	Example:
+	•	Data created in DB → Job runs → Data appears in UI
+	•	QA validates:
+	•	Backend data
+	•	UI reflection
+
+⸻
+
+5.4 Match-Merge
+	•	Identifies duplicate records
+	•	Matches based on:
+	•	Name
+	•	Phone
+	•	Address
+	•	Merges records into one
+
+⸻
+
+6. QA Role in CRM
+
+6.1 What QA Validates
+	•	UI correctness
+	•	Data accuracy
+	•	LOV behavior
+	•	Job results
+	•	Regression stability
+
+6.2 Types of Testing
+	•	Functional Testing
+	•	Regression Testing
+	•	Sanity Testing
+	•	PreProd / Bubble-Up Testing
+
+⸻
+
+7. Common Defect Types
+	•	Missing LOV values
+	•	Incorrect UI column headers
+	•	Data mismatch between backend and UI
+	•	Checkbox behavior (Y/N vs Checked)
+	•	Performance delays after fixes
+
+⸻
+
+8. Tools Used
+	•	CRM Application (Siebel)
+	•	JIRA / Digital.ai (defect & story tracking)
+	•	Shared Drive (evidence)
+	•	Excel (test data & trackers)
+	•	Automation tools (future phase)
+
+⸻
+
+CRM KT CHECKLIST (Daily Use)
+
+Day 1 – CRM Basics
+
+☐ Explained what CRM is
+☐ Explained why banks use CRM
+☐ Explained customer lifecycle
+
+⸻
+
+Day 2 – CRM Entities
+
+☐ Contacts explained
+☐ Companies/Households explained
+☐ Accounts explained
+☐ SR lifecycle explained
+
+⸻
+
+Day 3 – CRM UI
+
+☐ Screens vs Views explained
+☐ Applets explained
+☐ List View vs Form View explained
+☐ Query and LOV explained
+
+⸻
+
+Day 4 – CRM Testing
+
+☐ QA role explained
+☐ Types of testing explained
+☐ Defect examples shared
+☐ How to observe issues explained
+
+⸻
+
+Day 5 – End-to-End Flow
+
+☐ Backend job concept explained
+☐ Bubble-up testing explained
+☐ Match-merge explained
+☐ Expectations from junior QA explained
+
+⸻
+
+KT Completion Criteria
+
+☐ Can navigate CRM independently
+☐ Can explain CRM entities
+☐ Can identify basic defects
+☐ Can follow testing instructions
+
+⸻
+
+Next Steps After KT
+	•	Shadow senior QA
+	•	Review test cases
+	•	Learn defect logging
+	•	Gradually move to execution
+
+⸻
+
+✅ If you want next:
+	•	A printable PDF
+	•	A PowerPoint KT deck
+	•	A 30-60-90 day learning plan
+	•	A CRM glossary for freshers
+
+Just tell me what you want next.
