@@ -464,3 +464,14 @@ Goal: Get selected
 	•	Debugging exercises
 	•	Mock interview questions (Citi-style)
 
+==========
+
+Explain Python variables with QA test case examples
+
+Explain Python data types with examples used in automation testing
+
+Explain Python lists and dictionaries with test data examples
+
+Explain if-else conditions with API response validation examples
+
+Explain loops in Python using multiple test case execution example
