@@ -1,3 +1,33 @@
+Subject: QA Sign-Off – Release 3.1.24
+
+Dear Team,
+
+As part of Release 3.1.24, the QA team has completed regression testing covering all 8 ongoing items included in this release. In addition, impacted areas were identified and targeted regression was executed accordingly.
+
+All test executions have been completed successfully, and there are no open defects at this time. Please consider this as QA sign-off for Release 3.1.24.
+
+Best regards,
+[Your Name]
+QA Manager / Test Lead
+
+
+Subject: QA Sign-Off – Release 3.1.24
+
+Dear Team,
+
+For Release 3.1.24, the QA team has completed comprehensive regression testing covering all 8 ongoing items planned for this release. In addition, based on change analysis, impacted functional areas were identified and targeted regression testing was executed to ensure end-to-end stability.
+
+All planned test executions have been completed successfully across the applicable environments, and there are no open defects at this point. The test reports and supporting evidence have been shared separately for reference.
+
+Please consider this as formal QA sign-off for Release 3.1.24.
+
+Best regards,
+[Your Name]
+QA Manager / Test Lead
+
+
+
+
 5-Day CRM KT Plan (30 mins/day)
 
 Day 1 – CRM Basics & Business Context
