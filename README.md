@@ -1,30 +1,15 @@
-Subject: QA Sign-Off – Release 3.1.24
 
-Dear Team,
+Subject: Request for ECIF File – CRM PreProd Validation (US 11122)
 
-As part of Release 3.1.24, the QA team has completed regression testing covering all 8 ongoing items included in this release. In addition, impacted areas were identified and targeted regression was executed accordingly.
+Hi Team,
 
-All test executions have been completed successfully, and there are no open defects at this time. Please consider this as QA sign-off for Release 3.1.24.
+As part of regression testing for User Story 11122, we need the ECIF file to validate the data in CRM PreProd. Could you please let us know if you’re able to provide the ECIF file at the earliest?
 
-Best regards,
-[Your Name]
-QA Manager / Test Lead
-
-
-Subject: QA Sign-Off – Release 3.1.24
-
-Dear Team,
-
-For Release 3.1.24, the QA team has completed comprehensive regression testing covering all 8 ongoing items planned for this release. In addition, based on change analysis, impacted functional areas were identified and targeted regression testing was executed to ensure end-to-end stability.
-
-All planned test executions have been completed successfully across the applicable environments, and there are no open defects at this point. The test reports and supporting evidence have been shared separately for reference.
-
-Please consider this as formal QA sign-off for Release 3.1.24.
+Thanks in advance for your support.
 
 Best regards,
 [Your Name]
-QA Manager / Test Lead
-
+-----------
 
 
 
