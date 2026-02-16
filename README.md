@@ -1,20 +1,4 @@
-Subject: Automation Repository Update & Test Case Documentation
-
-Hi [PO’s Name],
-
-Please find the Git repository link below for your reference:
-[Insert Git Repo Link]
-
-Kindly consider the develop branch as the master reference branch for the current automation setup.
-
-The newly scripted automation test case (XXXX) has been implemented and documented in detail. All corresponding functional test cases in the board can be easily mapped to this automation script. The execution report also includes complete traceability details such as environment, test data used, and actual results.
-
-Please let me know if you would like a walkthrough of the structure or reporting format.
-
-Best regards,
-[Your Name]
-Test Lead – CRM QA
-
+“@Person, please add a task to share the required files for validation and attach the file location to the task for reference.”
 
 
 ==##
