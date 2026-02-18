@@ -1,5 +1,22 @@
-The file generation has failed due to an incorrect data type being extracted — the field is expected to be an integer, but a float value is currently being generated. As a result, validation cannot proceed. Moving this back to the Development queue for correction.”
+Hi XXXX,
 
+As part of our continuous improvement efforts in automation, we have observed that execution sometimes gets delayed following data refresh or CMA loads due to dependency on manually identified test data.
+
+To improve stability and reduce such dependencies, QA is proposing to introduce reusable automation components that can generate valid test data inputs dynamically. This will help ensure smoother execution without requiring manual intervention after data refresh activities.
+
+Could you please help create a Portfolio Item in Digital AI so that we can log and track the related maintenance stories under it?
+
+High-level Acceptance Criteria:
+- Automated component to generate valid test inputs  
+- Validation aligned with business rules  
+- Reusable across relevant automation scenarios  
+
+This enhancement will support better execution continuity and strengthen our automation framework.
+
+Please let me know your thoughts.
+
+Regards,  
+Sreesanth
 ==##
 
 Subject: Request for ECIF File – CRM PreProd Validation (US 11122)
