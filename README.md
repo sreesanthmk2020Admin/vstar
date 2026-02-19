@@ -1,12 +1,12 @@
-1. Method 1 – Access & Hierarchy Validation
-	•	Validate functionality for users with privileges and without privileges to view the data.
-	•	Verify visibility behavior across user hierarchy, including managers and higher-level roles with elevated access.
-	•	Ensure data is accessible only to authorized roles as per defined access controls.
-
-2. Method 2 – Out-of-the-Box (OOB) Feature Validation
-	•	Validate standard system features such as:
-	•	Search functionality
-	•	Delete functionality
-	•	Other applicable OOB operations
-	•	Ensure the restricted components/data are not available in any list view, including export view.
-	•	Confirm that the restricted data is not included in any exported file output.
+Method 3 – New View Validation
+	•	Validate the newly added view for standard functionality including:
+	•	Search
+	•	Add
+	•	Delete
+	•	Update
+	•	Ensure the view behaves correctly across modules (e.g., Companies and other related modules), as the sensitive comment field allows drill-down navigation to this view.
+	•	Verify:
+	•	Drill-down functionality works as expected.
+	•	Access control rules are enforced.
+	•	Data consistency is maintained across modules.
+	•	No unintended visibility of sensitive data.
