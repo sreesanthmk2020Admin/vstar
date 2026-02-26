@@ -24,3 +24,7 @@ Please let me know if you would like a walkthrough of the setup.
 
 Thanks,
 [Your Name]
+
+
+
+Keeping this story in QA with a blocker, as the required setup is currently unavailable in all environments for testing.”
