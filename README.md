@@ -1,7 +1,5 @@
-message:
+From the QA side, we can create a couple of submissions for 3 source systems available in the Test environment. However, one source system is currently not available in Test, so submissions cannot be created for that at this time.
 
-“The files were received today. Validation of the 5 files, including alignment, layout, record count, and sample data verification against the UI, is expected to take approximately 5 working days. With the Test environment currently available with the required data, validation has started, and the activity is expected to be completed by the 10th.”
+Once the submissions are created, I will share the details with the team.
 
-If you want a shorter version for the story comment:
-
-“Files received today. Validation has started in the Test environment and is expected to take 5 working days, with completion planned by the 10th.”
+Also, @PO, could you please confirm if QA should continue supporting unit testing data setup going forward? If yes, we can create a dedicated task under the applicable stories to track this effort.
