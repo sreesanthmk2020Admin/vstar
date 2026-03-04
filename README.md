@@ -1,13 +1,7 @@
-Story Name Update:
-Replace “and Testing” with “and File Validation.”
+message:
 
-Example:
-If the current story name is:
-“[Original Story Name] and Testing”
+“The files were received today. Validation of the 5 files, including alignment, layout, record count, and sample data verification against the UI, is expected to take approximately 5 working days. With the Test environment currently available with the required data, validation has started, and the activity is expected to be completed by the 10th.”
 
-It should be updated to:
-“[Original Story Name] and File Validation.”
+If you want a shorter version for the story comment:
 
-If you need to post it as a Digital.ai / Jira conversation, you can write:
-
-“Updating the story name to replace ‘and Testing’ with ‘and File Validation’ to better reflect the scope of work.”
+“Files received today. Validation has started in the Test environment and is expected to take 5 working days, with completion planned by the 10th.”
