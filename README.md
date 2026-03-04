@@ -1,11 +1,13 @@
-The requirement to update the field name from oldname to newname impacts approximately 30 views.
+Story Name Update:
+Replace “and Testing” with “and File Validation.”
 
-Each view requires UI validation, checklist verification, regression impact assessment, and corresponding updates to the automation suite.
+Example:
+If the current story name is:
+“[Original Story Name] and Testing”
 
-Based on the scope and validation effort involved, the estimate is 3 story points per view to ensure complete coverage and avoid downstream issues.
+It should be updated to:
+“[Original Story Name] and File Validation.”
 
-⸻
+If you need to post it as a Digital.ai / Jira conversation, you can write:
 
-If you want it even shorter (executive summary style):
-
-The field name change impacts 30 views. Each view requires validation and automation updates. Estimated at 3 story points per view to ensure full coverage and regression safety.
+“Updating the story name to replace ‘and Testing’ with ‘and File Validation’ to better reflect the scope of work.”
