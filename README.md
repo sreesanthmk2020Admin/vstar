@@ -1,3 +1,11 @@
+Title: CMA Testing – Test Strategy Walkthrough
+
+Description:
+The QA team has prepared a test strategy for CMA testing. In this session, I will walk through the proposed testing approach, scope, and validation plan.
+
+The objective of this meeting is to review the strategy and gather feedback from stakeholders before moving forward with the testing activities.
+
+
 QA has started working on the CMA testing activities. As part of the initial phase, a QA Test Plan document is being prepared to define the testing strategy, scope, and validation approach for the CMA implementation.
 
 The document includes:
