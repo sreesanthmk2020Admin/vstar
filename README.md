@@ -1,1 +1,4 @@
+During development, two additional tables were identified and included as part of the implementation. While the story was in the QA stage, it was further identified that one more table needs to be extracted and incorporated into the development scope. Due to this change, additional effort is required for updating the test case design to cover the expanded data scope.”
+
+
 During development, two additional tables were identified and included as part of the implementation. While the story was in the QA stage, the developer further identified that one more table needs to be extracted and included in the development scope. Due to this scope update, additional effort is required for QA test case creation and execution. As we are at the end of the sprint today, I will try to complete the validation within the current sprint.”
