@@ -1,10 +1,1 @@
-Subject: CMA Test Case Review
-
-Hi [Manager’s Name],
-
-Please find the CMA test cases attached for your review. I have referred to the XXX document while preparing these test cases.
-
-Kindly let me know if any updates or additional scenarios need to be included.
-
-Thanks,
-[Your Name]
+During development, two additional tables were identified and included as part of the implementation. While the story was in the QA stage, the developer further identified that one more table needs to be extracted and included in the development scope. Due to this scope update, additional effort is required for QA test case creation and execution. As we are at the end of the sprint today, I will try to complete the validation within the current sprint.”
