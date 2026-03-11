@@ -1,3 +1,25 @@
+QA has started working on the CMA testing activities. As part of the initial phase, a QA Test Plan document is being prepared to define the testing strategy, scope, and validation approach for the CMA implementation.
+
+The document includes:
+	•	Identification of functional areas to be tested
+	•	Test approach and validation strategy
+	•	Test data requirements
+	•	Environment considerations
+	•	Regression impact areas
+
+This activity ensures the QA team has a structured approach for CMA testing and provides visibility to the team that QA preparation for CMA has started.
+
+Acceptance Criteria
+	•	CMA Test Plan document prepared
+	•	Testing scope and validation approach documented
+	•	Document shared with stakeholders for review
+
+Notes (Optional)
+
+This story is created to provide visibility and effort tracking for QA planning activities related to CMA.
+
+
+
 manager):
 “Good morning [Name], whenever you get a chance — I’ve been working on the CMA test plan document over the last few days. Should I create a 3-point story in the CRM board so the team has visibility that QA has started working on the CMA activities?”
 
