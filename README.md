@@ -1,14 +1,5 @@
-Subject: Sprint Priorities – QA Activities
-
 Hi [PO Name],
 
-For the remaining days of the sprint, we have one holiday on Thursday and one QA resource on leave for the entire week. Considering the available capacity, below are the tasks I am planning to complete during this sprint, in priority order:
-	1.	STR preparation
-	2.	RMT PAS system validation
-	3.	CMA test case readiness
-	4.	Defect XXX – data setup and retest
+Just to add some context — STR preparation will take approximately 3 hours to collate all the data and compile it.
 
-Please let me know if you would like to adjust the priorities or include any additional items. If anything spills over due to capacity constraints, I will keep you updated accordingly.
-
-Thanks,
-[Your Name]
+For Defect XXX, the data setup has already been completed and shared with Sriharsha, and we will proceed with the retest accordingly.
