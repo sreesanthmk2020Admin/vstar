@@ -1,5 +1,6 @@
-Hi [PO Name],
+Title: CMA Testing – Strategy Review (Continued)
 
-Just to add some context — STR preparation will take approximately 3 hours to collate all the data and compile it.
+Description:
+Continuing our CMA test strategy review to walk through open items, address feedback, and align on next steps.
 
-For Defect XXX, the data setup has already been completed and shared with Sriharsha, and we will proceed with the retest accordingly.
+Appreciate your time and input. Looking forward to the discussion.
