@@ -1,37 +1,10 @@
-Subject: CRM KT Session & Access Check
-
-Hi [Name],
-
-I’m blocking your calendar for a CRM KT session to walk you through the basics, modules, workflows, and QA process.
-
-Also, as a quick check, could you please confirm if you have access to the CRM Test environment? You have already been added to the required user group.
-
-Please let me know if you face any issues.
-
-Thanks,
-[Your Name]
-
-
-
-
-Title: CMA Test Strategy – Final Review & Approval
-
-Description:
-Blocking time for a final discussion on the CMA test strategy document, incorporating all feedback received.
-
-The objective is to review the updates and align on final approval of the document.
-
-Appreciate your time and input. Looking forward to closing this out.
-
-
-Subject: Test Case Completion
-
-Hi [Name],
-
-Good morning 🙂
-When you get started today, could you please first complete the test cases you had already begun and left incomplete?
-
-Let me know once you’re done or if you need any help.
-
-Thanks,
-[Your Name]
+Good morning everyone, and welcome to the team.
+It’s great to have you all here as part of the Fifth Third and SLK delivery group.
+Today, I’ll be giving you a walkthrough of the Siebel CRM application that we are currently working on.
+This system plays a critical role in managing customer interactions across the bank.
+Through this session, you will get a high-level understanding of how the CRM is structured and how it supports banking operations.
+I will walk you through the architecture, key modules, and some real-time workflows used in the system.
+The objective is not to go very deep technically, but to help you understand how everything connects together.
+This will also give you context on how your work will contribute to the overall system.
+Feel free to note down any questions, and we can discuss them towards the end of the session.
+Let’s get started.
