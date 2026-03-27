@@ -30,3 +30,9 @@ Thanks,
 [Your Name]
 
 ==
+
+Hi Suresh, below are the two items to focus on:
+	1.	Please create the test cases based on the acceptance criteria and complete them.
+	2.	Set up some time with Amol to gather as much information as possible on the below stories.
+
+Also, please attach all relevant documents and links to the respective stories and ensure the session is recorded so we can refer back on Monday if needed.”**
