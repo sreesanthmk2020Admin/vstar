@@ -17,10 +17,16 @@ Thanks,
 
 
 
-Regression testing artifacts are attached. Functional testing has also been completed, and integration test cases are included. Security/role-based testing could not be performed, as the PreProd environment uses database authentication, which restricts validation using the test IDs available in other non-prod environments.”
+===
+Subject: QA Sign-Off – MSP Mortgage Changes
 
-⸻
+Hi Team,
 
-If you want a slightly softer version:
+The MSP mortgage changes have been successfully validated in the PreProd environment, and there are no open defects at this time.
 
-“Regression testing artifacts are attached. Functional and integration testing have been completed and documented. Security/role-based testing could not be executed due to PreProd environment limitations, as it uses database authentication and does not support the test IDs used in other non-prod environments.”
+Please consider this as formal QA sign-off for the changes.
+
+Thanks,
+[Your Name]
+
+==
