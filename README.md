@@ -1,38 +1,19 @@
-Subject: Sprint 6 – QA Priorities & CMA Test Case Preparation
+Subject: CMA Stories Status & BAU Work Update
 
-Hi [PO Name],
+Hi [Manager’s Name],
 
-Please find below the QA priorities for Sprint 6, ordered by priority:
+Please find below the status of CMA stories:
 
-[Insert list of stories in priority order]
+[Insert CMA stories and their status here]
 
-We are currently not expecting any capacity constraints or planned leaves for the sprint.
+In parallel, the team is also working on the following BAU activities:
+	•	RM Transfer defect retest – involves API, UI submissions, and data validation, with relatively higher effort on the data side.
+	•	RegO work – currently on high priority, as it was initially planned to go live alongside the above changes.
+	•	ASF data validation story – involves high-volume data validation and requires significant effort.
 
-For the CMA QA stories (test case creation), we are in the process of gathering inputs from respective owners and defining the acceptance criteria, QA scope, and test scenarios. Additionally, we plan to include a reviewer task for each story to ensure quality and completeness.
+Considering the above, the team is managing both CMA and BAU activities in parallel, with focus on priority deliverables.
 
-Could you please suggest who can provide an overall review apart from the peer reviewer or story owner?
-
-Thanks,
-[Your Name]
-
-
-
-===
-Subject: QA Sign-Off – MSP Mortgage Changes
-
-Hi Team,
-
-The MSP mortgage changes have been successfully validated in the PreProd environment, and there are no open defects at this time.
-
-Please consider this as formal QA sign-off for the changes.
+Please let me know if any reprioritization is required.
 
 Thanks,
 [Your Name]
-
-==
-
-Hi Suresh, below are the two items to focus on:
-	1.	Please create the test cases based on the acceptance criteria and complete them.
-	2.	Set up some time with Amol to gather as much information as possible on the below stories.
-
-Also, please attach all relevant documents and links to the respective stories and ensure the session is recorded so we can refer back on Monday if needed.”**
