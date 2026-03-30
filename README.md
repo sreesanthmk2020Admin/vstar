@@ -49,3 +49,6 @@ Based on this confirmation, we will proceed with data setup, test case updates, 
 
 Thanks,
 [Your Name]
+
+===
+This story is linked to the previously completed test plan activity. The test plan has already been prepared and finalized under the earlier story. Hence, no additional effort is required, and this item is considered completed.”
