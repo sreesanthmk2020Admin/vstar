@@ -1,11 +1,16 @@
-“Hi [PO Name], sharing a quick update on the CMA stories:
-	•	Completed: [X stories]
-	•	In Progress: [Y stories]
-	•	ETA: Targeting completion by March 31st
+Title: RM Transfer – Snowflake & Email Validation Clarifications
 
-Dependencies/Risks:
-	•	[List items]
+Description:
+Setting up time to clarify requirements related to RM Transfer (Snowflake data and PAS extract).
 
-We’re working towards closing everything by March 31st. I’ll block your calendar on April 1st to walk through the test cases and coverage for review.
+Topics to cover:
+	•	Snowflake data validation
+	•	PAS extract details
+	•	Email frequency and timeframe
+	•	Email audience
+	•	Test coverage expectations
+	•	Any additional data setup requirements
 
-Please let me know if you’d like any reprioritization.”**
+The outcome of this discussion will help close the stories tied to RMT Snowflake work.
+
+Looking forward to aligning on these items.
