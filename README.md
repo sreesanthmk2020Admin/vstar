@@ -64,3 +64,21 @@ Memory Instruction:
 Safety Instruction:
 - Clearly highlight assumptions if mapping or data is unclear
 - Ensure validation logic follows enterprise data testing standards
+
+
+
+
+
+
+Entity: Customer / Contact
+
+Mapping:
+Source Field → Target Field
+CUST_ID → ROW_ID
+CUST_NAME → NAME
+CUST_TYPE → TYPE
+
+Acceptance Criteria:
+- Customer should be created with correct type
+- Duplicate customers should not be created
+- Mandatory fields must not be null
