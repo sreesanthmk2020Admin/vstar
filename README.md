@@ -158,3 +158,21 @@ Please let me know if any updates or refinements are required.
 Thanks,
 [Your Name]
 
+===
+
+Subject: Officer Number Missing in Extract – Resolution
+
+Hi Team,
+
+The issue observed with the officer number not being available in the extract files was due to selecting a position from a non-commercial type. As a result, the system did not have a primary user associated with the officer, which led to the officer number being missing in the extract.
+
+This has now been corrected by setting the user as primary for the officer position.
+
+Could you please rerun the job after elevating the Siebel data? Once completed, the officer number should be available in the extract files.
+
+This will help us proceed with validation and close the open defects related to the missing officer number.
+
+Thanks,
+[Your Name]
+
+
