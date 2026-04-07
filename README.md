@@ -110,3 +110,51 @@ You are:
 ✅ Suggesting improvement
 ✅ Backed by real issues
 ✅ Offering low-risk trial
+
+
+====
+
+Subject: MOM – QA Documentation & Test Artifact Structure (Going Forward)
+
+Hi [Scrum Master’s Name],
+
+As discussed, below are the agreed updates on QA documentation and test artifact structure going forward:
+
+⸻
+
+1. Test Case & Evidence Structure
+	•	Each story will have one test case Excel workbook.
+	•	The first sheet will contain all test cases.
+	•	Each test case will have a dedicated sheet (named using the test case number).
+	•	The respective sheet will include:
+	•	Data setup screenshots
+	•	Test execution evidence screenshots
+
+⸻
+
+2. Story-Level SharePoint Folder
+	•	Each story will have a dedicated SharePoint folder containing:
+	•	Required data files
+	•	Email communications (if applicable)
+	•	Test files
+	•	Test data setup sheet
+	•	Test case workbook
+
+⸻
+
+3. Test Task Structure
+	•	Going forward, each story will have a single QA testing task, covering:
+	•	Functional testing
+	•	Integration testing
+	•	Regression testing
+	•	(or any applicable testing scope)
+
+⸻
+
+These changes are aimed at improving traceability, organization, and visibility of QA artifacts.
+
+Please let me know if any updates or refinements are required.
+
+Thanks,
+[Your Name]
+
