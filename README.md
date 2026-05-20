@@ -3,7 +3,7 @@ Hi Team, I need to leave early today due to a personal matter. Bubble-up validat
 
 Hi [Manager Name], I need to leave early today due to a personal matter. Bubble-up validation is still in my queue, and I don’t have further updates for today. I’m currently working on the defect analysis sheet and will review it with Praveen before sharing it with you.
 
-
+Aligned on the approach. QA will proceed with the required data setup activities in the Test environment and will initiate validation execution based on the go-ahead from your end.
 
 
 
