@@ -1,78 +1,185 @@
-import pandas as pd
 
-# =========================
-# Read Layout File
-# =========================
+For a manager-level UAT defect report in Excel, you should keep it:
 
-layout_df = pd.read_excel("layout.xlsx")
+* Executive-friendly
+* Easy to scan
+* Action-oriented
+* Traceable
 
-layout = []
+Here’s the best table structure you can use.
 
-for _, row in layout_df.iterrows():
+⸻
 
-    layout.append({
-        "column_name": row["Column Name"],
-        "start": int(row["Start"]),
-        "length": int(row["Length"])
-    })
+✅ Recommended Excel Columns
 
-# =========================
-# Read Expected Data
-# =========================
+Column Name
 
-expected_df = pd.read_excel("snowflake_extract.xlsx")
+Purpose
 
-# =========================
-# Read TXT File
-# =========================
+Sl. No
 
-actual_records = []
+Serial number
 
-with open("company_records.txt", "r") as file:
+Story / Module
 
-    for line in file:
+Related CMA story or module
 
-        record = {}
+Defect ID
 
-        for col in layout:
+Jira / defect tracking ID
 
-            start = col["start"]
-            end = start + col["length"]
+Defect Summary
 
-            value = line[start:end].strip()
+Short issue description
 
-            record[col["column_name"]] = value
+Severity
 
-        actual_records.append(record)
+Critical / High / Medium / Low
 
-# Convert actual txt records to dataframe
-actual_df = pd.DataFrame(actual_records)
+Defect Category
 
-# =========================
-# Compare Data
-# =========================
+Functional / Data / Env / Requirement / Dev
 
-for index in range(len(expected_df)):
+Root Cause
 
-    expected_row = expected_df.iloc[index]
-    actual_row = actual_df.iloc[index]
+Coverage gap / Data issue / Requirement clarification etc
 
-    for column in expected_df.columns:
+Identified In
 
-        expected_value = str(expected_row[column]).strip()
-        actual_value = str(actual_row[column]).strip()
+UAT / QA / Regression
 
-        if expected_value != actual_value:
+QA Coverage Status
 
-            print("Mismatch Found")
-            print(f"Row Number : {index + 1}")
-            print(f"Column     : {column}")
-            print(f"Expected   : {expected_value}")
-            print(f"Actual     : {actual_value}")
-            print("-------------------------")
+Covered / Partially Covered / Not Covered
+
+Reason for Gap
+
+Why issue escaped QA
+
+Current Status
+
+Open / In Progress / Fixed / Retest / Closed
+
+Owner
+
+Dev / QA / Data Team
+
+Dependency / Blocker
+
+Any external dependency
+
+Fix ETA
+
+Expected fix date
+
+QA Retest ETA
+
+Validation timeline
+
+Regression Impact
+
+Yes / No
+
+Action Taken
+
+Coverage update / Data correction etc
+
+Remarks
+
+Additional notes
+
+✅ Additional Summary Sheet (Highly Recommended)
+
+Create a separate sheet:
+
+Sheet Name: Summary
+
+Include:
+
+* Total defects
+* Critical count
+* Closed/Open count
+* Root cause distribution
+* Risk areas
+* QA action plan
+
+⸻
+
+✅ Optional Strong Columns (Leadership Touch)
+
+If you want to look more senior
+
+Column
+
+Why useful
+
+Preventive Action
+
+Shows continuous improvement
+
+Business Impact
+
+Leadership visibility
+
+UAT Scenario Type
+
+Migration / Match Merge / Reporting etc
+
+Test Data Issue
+
+Yes/No
+
+✅ My Recommended Final Set (Balanced)
+
+Use these 15 columns:
+
+1. Sl No
+2. Story / Module
+3. Defect ID
+4. Defect Summary
+5. Severity
+6. Defect Category
+7. Root Cause
+8. QA Coverage Status
+9. Reason for Gap
+10. Current Status
+11. Owner
+12. Dependency / Blocker
+13. Fix ETA
+14. QA Retest ETA
+15. Action Taken / Remarks
+
+⸻
+
+🚀 Pro Tip
+
+Use colors:
+
+* 🔴 Critical
+* 🟠 High
+* 🟡 Medium
+* 🟢 Closed
+
+Managers love visual clarity.
+
+⸻
+
+🧠 Most Important Column
+
+👉 “Reason for Gap”
+
+This protects QA professionally.
+
+Example values:
+
+* Additional business scenario identified during UAT
+* Mock data limitation
+* Environment-specific behavior
+* Requirement clarification received later
+
+
+
 =====
-
-
 
 HIGH PRIORITY DEFECT SCENARIOS – SIEBEL CRM – COMERICA MERGER
 
