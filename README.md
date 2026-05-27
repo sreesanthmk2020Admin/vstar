@@ -1,11 +1,10 @@
-Hi Team, I need to leave early today due to a personal matter. Bubble-up validation is in my queue, and I don’t have any further updates for today.
+Hi XXXX,
 
+Our test cases are already attached to the respective stories in Digital AI. You can pull them from there, update them in the QTest template, and proceed with the upload.
 
-Hi [Manager Name], I need to leave early today due to a personal matter. Bubble-up validation is still in my queue, and I don’t have further updates for today. I’m currently working on the defect analysis sheet and will review it with Praveen before sharing it with you.
+Currently, the offshore QA team is fully engaged with PAS validation for 8 stories along with ongoing CMA testing activities.
 
-Aligned on the approach. QA will proceed with the required data setup activities in the Test environment and will initiate validation execution based on the go-ahead from your end.
-
-
+Please let me know if you face any challenges locating the test cases or need any support.
 
 
 =====
