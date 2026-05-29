@@ -1,12 +1,4 @@
-Currently, QA is validating PASS files for eight source systems. Each story is estimated at 3 points and includes test case preparation, data setup, execution, and validation, typically requiring about three days to complete.
-
-Stories are moved to the next status as soon as activities are completed. Any story that remains in progress is actively undergoing validation and requires the planned effort to finish.
-
-In parallel, QA is supporting BAU activities, defect retesting, and data setup.
-
-If there are specific tasks you believe are delayed or not progressing as expected, please highlight them so we can review and address them promptly.
-
-
+Yes, there are blockers associated with some of the stories. Currently, there are three open defects related to DLS and one related to BankTrade, along with the other defects previously shared in the chat. These are the reasons the corresponding stories have not progressed further. We have already provided the defect details and status updates in the chat for visibility.
 
 
 
