@@ -1,6 +1,8 @@
+Also, since you are representing the offshore QA team in the stand-up calls, I would appreciate it if you could proactively gather and track the relevant details from our side. This will help ensure that when questions are raised, we can clearly communicate what activities are currently in progress, why they are taking the planned effort, and any dependencies or blockers involved. Having that visibility will help present an accurate status and avoid any misunderstandings around QA progress.
+
 Yes, there are blockers associated with some of the stories. Currently, there are three open defects related to DLS and one related to BankTrade, along with the other defects previously shared in the chat. These are the reasons the corresponding stories have not progressed further. We have already provided the defect details and status updates in the chat for visibility.
 
-
+Please find below our comments and clarifications for each of the items raised.”
 
 
 =====
