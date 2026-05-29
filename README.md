@@ -1,10 +1,14 @@
-Hi XXXX,
+Currently, QA is validating PASS files for eight source systems. Each story is estimated at 3 points and includes test case preparation, data setup, execution, and validation, typically requiring about three days to complete.
 
-Our test cases are already attached to the respective stories in Digital AI. You can pull them from there, update them in the QTest template, and proceed with the upload.
+Stories are moved to the next status as soon as activities are completed. Any story that remains in progress is actively undergoing validation and requires the planned effort to finish.
 
-Currently, the offshore QA team is fully engaged with PAS validation for 8 stories along with ongoing CMA testing activities.
+In parallel, QA is supporting BAU activities, defect retesting, and data setup.
 
-Please let me know if you face any challenges locating the test cases or need any support.
+If there are specific tasks you believe are delayed or not progressing as expected, please highlight them so we can review and address them promptly.
+
+
+
+
 
 
 =====
