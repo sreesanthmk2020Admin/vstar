@@ -1,10 +1,21 @@
-Source System | D.ai Story | Current Activity | Status | Defects | Dependency/Blocker | ETA | Daily Update
-DLS | US-XXXX | Data Validation | In Progress | 3 Open | Awaiting defect fixes | DD-MMM | Layout validation completed. Data validation in progress. 3 defects logged.
-BankTrade | US-XXXX | Retest | Blocked | 1 Open | Awaiting build/fix | DD-MMM | Validation completed. Retest pending defect resolution.
-Source 3 | US-XXXX | Test Case Preparation | In Progress | 0 | None | DD-MMM | Test cases and data setup in progress.
-Source 4 | US-XXXX | Execution | In Progress | 0 | None | DD-MMM | Layout and record count validation completed.
-Source 5 | US-XXXX | Validation Complete | Closed | 0 | None | DD-MMM | Validation completed and signed off.
-Source 6 | US-XXXX | Data Setup | In Progress | 0 | Awaiting data | DD-MMM | Data setup activities underway.
-Source 7 | US-XXXX | Execution | In Progress | 0 | None | DD-MMM | File validation in progress.
-Source 8 | US-XXXX | Data Reconciliation | In Progress | 0 | None | DD-MMM | Data reconciliation underway.
-Source 9 | US-XXXX | Validation Complete | Closed | 0 | None | DD-MMM | Validation completed and signed off.
+What Went Well
+
+Improved QA Visibility and Artifact Organization
+
+QA established a structured approach for maintaining test artifacts, including story-level folders, consolidated trackers, and standardized evidence storage. This improved traceability and provided a single source of truth for status reporting.
+
+✅ Improvement Opportunity
+
+Earlier Alignment on Requirements and Documentation
+
+A few observations and defects were traced back to outdated or unclear story documentation. Going forward, requirement artifacts, email templates, and supporting documents should be reviewed and confirmed during grooming to ensure QA is testing against the latest approved requirements.
+
+Or, if your team prefers the classic Went Well / To Improve format:
+
+Went Well
+
+* QA proactively created consolidated tracking and reporting mechanisms for PAS validations across multiple source systems, improving stakeholder visibility.
+
+To Improve
+
+* Establish a clearer handoff process and documentation review before QA execution to avoid testing against outdated requirements and reduce rework.
