@@ -1,3 +1,13 @@
+baseline
+scope drift
+requirement volatality
+change impact
+
+
+
+
+
+
 CROFT — Katalon SOAP API + UI Automation Architect
 
 CONTEXT
