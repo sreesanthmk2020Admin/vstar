@@ -1,0 +1,311 @@
+CROFT — Senior SDET Automation Documentation Architect
+
+C — CONTEXT
+
+I am a Senior SDET / Test Lead working on CRM application testing. Our CRM integrates with another application called Iris through web services APIs. Iris creates and manages business entities such as Companies, Contacts, Opportunities, and Call Reports, and the corresponding data is available in CRM.
+
+Our QA team previously tested these APIs manually using ReadyAPI. I have now automated approximately 51 API test cases using Katalon Studio.
+
+My objective is to create comprehensive, accurate, professional technical documentation for the existing automation framework. The document must help current team members understand the framework, enable new team members to maintain it, and support future enhancements.
+
+The final deliverable must be a Microsoft Word (.docx) document suitable for sharing with the QA team and publishing on Confluence.
+
+R — ROLE
+
+Act as a Senior SDET, Katalon Automation Architect, API Testing Specialist, BDD Documentation Expert, and Technical Writer with extensive experience in enterprise CRM systems and API automation.
+
+Analyze the actual source files I provide. Explain the implemented framework in clear, professional English that both experienced automation engineers and new team members can understand.
+
+Do not create generic documentation unrelated to my implementation.
+
+O — OBJECTIVES
+
+Create a complete technical documentation package covering the following:
+
+1. Executive Summary
+
+* Purpose and business value of API automation.
+* Overview of the Iris-to-CRM integration.
+* Number of automated APIs and test scenarios, based on the supplied evidence.
+* Benefits over the previous manual ReadyAPI approach.
+* Current scope, exclusions, and known limitations.
+
+2. Application and Integration Overview
+
+* Explain the Iris and CRM applications.
+* Describe the API integration and the data flow.
+* Explain the business entities covered: Company, Contact, Opportunity, Call Report, and any other entities found in the uploaded files.
+* Include an architecture or data-flow diagram if supported by the available information.
+
+3. Automation Framework Architecture
+
+Analyze the actual project files and document:
+
+* Katalon Studio project structure.
+* BDD feature files and their purpose.
+* Step definition classes and their responsibilities.
+* API service or utility classes.
+* Web service objects maintained in the Object Repository.
+* Request and response handling.
+* Shared methods, constructors, dependency injection, and reusable components, if present.
+* Configuration, authentication, headers, and environment settings, where evidenced.
+* Test execution and reporting flow.
+
+Include actual class names, feature file names, method names, and folder paths wherever available.
+
+4. BDD Feature File Design
+
+* Explain the implemented Given/When/Then or other Gherkin structure.
+* Explain how each scenario maps to a step definition and API method.
+* Describe the naming conventions and documentation benefits.
+* Provide representative examples taken from my uploaded files.
+* Explain how a new test scenario should be added consistently with the existing framework.
+
+5. API Automation Inventory
+
+Create a consolidated inventory of all automated APIs and scenarios identified in the supplied files.
+
+Include these columns where the evidence supports them:
+
+* Serial number.
+* Business entity.
+* API or operation name.
+* HTTP method.
+* Feature file.
+* Scenario name.
+* Step definition.
+* API class or method.
+* Test objective.
+* Positive or negative scenario classification.
+* Validation performed.
+* Automation status, where verified.
+
+Identify missing mappings, duplicate entries, and inconsistencies. Do not assume that the number of feature scenarios equals the number of unique APIs.
+
+6. Test Data Identification and Management
+
+Document the actual test data strategy implemented in the framework.
+
+My current approach includes:
+
+* Identifying a suitable Company record through the CRM UI.
+* Retrieving or identifying the record’s Row ID.
+* Configuring the required user as a member of the Company’s team through the UI.
+* Using the relevant Company Row ID and configured user details in the API request.
+* Passing the required update data, such as Company Name or Phone Number.
+* Executing the API and validating the response and resulting data.
+
+Analyze the supplied code to confirm which of these steps are implemented and how they are performed.
+
+Explain:
+
+* How records are selected.
+* How record identifiers are obtained.
+* How team membership and access permissions affect update operations.
+* How test data is passed to the API request.
+* How to avoid data collisions and unintended modifications.
+* Cleanup or restoration of modified data, if implemented.
+* Limitations of selecting random records.
+* Recommendations for improving test data reliability without misrepresenting existing functionality.
+
+Clearly distinguish the current implementation from future recommendations.
+
+7. Authorization and Access Control
+
+* Explain the role of user permissions and Company team membership in update scenarios.
+* Document how the configured login ID is used, based on the evidence.
+* Describe the relationship between authorization, request headers, and payload fields only where verified.
+* Explain how authorization failures should be diagnosed.
+* Do not expose passwords, access tokens, client secrets, personal data, or other confidential values.
+
+8. API Request and Response Validation
+
+Document the actual implementation of:
+
+* HTTP methods and endpoints.
+* Request headers and payload construction.
+* Status code validation.
+* Response body validation and assertions.
+* Business data validation.
+* Error handling and logging.
+* Positive and negative validation, where present.
+
+Include representative sanitized examples of requests and responses from the uploaded files or reports.
+
+Do not invent endpoints, payload fields, status codes, assertions, or validation rules.
+
+9. End-to-End Execution Workflow
+
+Provide a numbered, step-by-step guide explaining how a team member can execute the existing automated tests.
+
+Cover the applicable steps:
+
+1. Prerequisites and access requirements.
+2. Opening the Katalon project.
+3. Configuring the execution environment.
+4. Preparing test data.
+5. Verifying required user permissions.
+6. Selecting a feature file or test suite.
+7. Executing the automation.
+8. Reviewing execution logs.
+9. Reviewing API responses and assertions.
+10. Accessing the generated reports.
+11. Troubleshooting failures.
+
+Use actual menu names, configuration parameters, test suite names, and commands only when confirmed by the supplied evidence. Flag missing information instead of guessing.
+
+10. Logging and Reporting
+
+Explain how the framework captures and presents:
+
+* Company or business entity details.
+* User or test execution identifiers, when safe to disclose.
+* Request payloads.
+* Response payloads.
+* Execution steps and diagnostic logs.
+* Validation results.
+* Screenshots and UI evidence, if captured.
+* Pass/fail status and failure details.
+
+Explain how these artifacts help investigate failures and provide traceability.
+
+Use sample reports where supplied. Show sanitized examples and avoid exposing credentials or sensitive business data.
+
+11. Troubleshooting Guide
+
+Create a practical troubleshooting table with:
+
+* Symptom or failure.
+* Potential cause.
+* How to investigate.
+* Recommended resolution.
+* Relevant feature file, class, method, or log, where identifiable.
+
+Consider authorization failures, invalid Row IDs, unavailable test data, incorrect headers, malformed payloads, unexpected status codes, assertion failures, UI changes, configuration problems, and integration issues. Label these as potential issues unless they are evidenced in the implementation.
+
+12. Maintenance and Extension Guidelines
+
+Explain how to:
+
+* Add a new BDD scenario.
+* Add or update a step definition.
+* Reuse existing API methods.
+* Add or update web service objects.
+* Update payloads and validations.
+* Maintain test data preparation.
+* Investigate failures following application changes.
+* Review code changes and regression results.
+
+Derive the guidelines from the actual framework. Identify opportunities for improved reuse, maintainability, and reliability separately as recommendations.
+
+13. Current Coverage, Gaps, and Future Roadmap
+
+Summarize:
+
+* Verified automated coverage.
+* APIs or scenarios identified as pending.
+* Positive and negative test coverage, where evidence exists.
+* Current technical limitations.
+* Recommended next steps.
+
+Do not assume that all approximately 51 automated test cases are unique APIs or that negative scenarios are automated unless the supplied evidence confirms this.
+
+14. Appendices
+
+Include:
+
+* Feature file inventory.
+* Class and method inventory.
+* Object Repository inventory.
+* API-to-scenario traceability matrix.
+* Configuration prerequisites.
+* Glossary of technical terms.
+* Document version history and ownership fields.
+
+F — FILES AND EVIDENCE TO ANALYZE
+
+I will upload available project artifacts in batches. They may include:
+
+1. All BDD feature files.
+2. Step definition files.
+3. API classes and utility classes.
+4. Katalon Object Repository web service objects.
+5. Test suites and execution configuration.
+6. Existing manual ReadyAPI test cases, if available.
+7. The list of APIs and scenarios automated.
+8. Sample execution reports, logs, request/response payloads, and screenshots.
+9. Existing framework documentation, if available.
+
+First, identify and inventory the files received. Maintain a checklist of received files and outstanding inputs.
+
+Analyze relationships across files instead of documenting each file in isolation.
+
+If the source files are incomplete, ask for the specific missing artifacts needed to complete the analysis. If sufficient information is available, proceed without unnecessary questions.
+
+Never claim to have inspected a file that was not provided or could not be read.
+
+T — TASK EXECUTION AND FINAL DELIVERABLE
+
+Follow these phases in order.
+
+Phase 1: Intake and analysis
+
+* Review the available files.
+* Build a file inventory.
+* Map feature scenarios to step definitions, API methods, and Object Repository objects.
+* Identify the actual API and scenario counts.
+* Record ambiguities, missing information, and inconsistencies.
+
+Phase 2: Framework reconstruction
+
+* Explain how the components interact.
+* Reconstruct the execution workflow.
+* Document test data preparation and access-control dependencies.
+* Identify the reporting and validation mechanisms.
+* Separate verified implementation details from assumptions and recommendations.
+
+Phase 3: Documentation creation
+
+Generate the full technical document using the structure above.
+
+Use:
+
+* A professional enterprise-document style.
+* A title page.
+* Document control and version information.
+* An automatically updateable table of contents, if supported.
+* Numbered headings and consistent subheadings.
+* Readable tables.
+* Numbered procedures.
+* Code blocks or formatted code examples.
+* Architecture diagrams where useful and supported.
+* Clear notes for missing information.
+* Consistent terminology and sanitized examples.
+
+Write in concise, technically accurate English. Avoid unnecessary repetition and generic filler.
+
+Phase 4: Quality review
+
+Before finalizing, verify:
+
+* Every documented class, method, feature file, and API is supported by the evidence.
+* Counts are reconciled and discrepancies are disclosed.
+* Each documented scenario is traceable to its implementation where possible.
+* Actual functionality is distinguished from recommendations.
+* No credentials, secrets, or sensitive production data are included.
+* Instructions are actionable for a new team member.
+* The document is internally consistent and ready for technical review.
+
+Phase 5: Final output
+
+Create and provide the actual downloadable Microsoft Word (.docx) file, not just an outline or text response.
+
+Use the filename:
+
+CRM_API_Automation_Framework_Technical_Documentation.docx
+
+The document must be complete enough for the QA team to review, maintain the automation, and use as the foundation for a Confluence knowledge page.
+
+If your environment cannot generate or attach a Word file directly, provide the complete Word-ready document and clearly explain the limitation. Do not claim a file has been created unless it is actually available.
+
+Begin by asking me to upload the first batch of automation artifacts and identify which files you have received.
