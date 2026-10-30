@@ -1,0 +1,35 @@
+Round 1 - Coding, Manual Testing & Automation
+• Find the first non-repeating character in a string.
+• Reverse a string without using built-in methods.
+• Write test cases for a Login page.
+• Write test cases for a Payment Gateway.
+• Difference between Severity and Priority.
+• Difference between Smoke, Sanity and Regression Testing.
+• Explain the Bug Life Cycle.
+• Write a Playwright script to login into an application.
+• How do you handle dynamic locators in Playwright?
+• Difference between locator), getByRole() and getByText().
+• How do you upload a file using Playwright?
+• How do you validate REST API status code, headers and response body?
+• Write an SQL query to find duplicate records.
+• How do you validate Ul data with Database values?
+Round 2 - Framework, Playwright & Scenario Based
+• Explain your Playwright framework architecture.
+• Why did you choose Playwright over Selenium?
+• How have you implemented Page Object Model?
+• Explain your folder structure in the framework.
+• How do you identify which test cases should be automated?
+• How do you manage test data in your framework?
+• How do you execute Playwright tests in parallel?
+• How do you integrate Playwright with Jenkins?
+• How do you integrate Playwright with Azure DevOps?
+• How do you generate Allure or HTML reports?
+• How do you identify and fix flaky tests?
+• Write a TypeScript function to remove duplicate values from an array.
+• Write an SQL query to find the second highest salary.
+• A Playwright test passes locally but fails in Jenkins. How will you debug it?
+• Your automation suite started failing after a deployment.
+What steps will you take?
+• Tell me about the most challenging automation problem you solved.
+I've put together a QA Interview Preparation Notes packed with the essential concepts, practical insights and interview-focused topics every aspiring QA Engineer and SDET should know.
+• Get your QA Interview Preparation Notes Here
